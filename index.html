@@ -1,4 +1,4 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Cosmo Tower 500F — A Luta dos Deuses | 1.13</title><style>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Cosmo Tower 500F — A Luta dos Deuses | 1.15</title><style>
 :root{color-scheme:dark;--gold:#e7c47a;--line:#39435d;--muted:#a2abc0;--bg:#080d1c;--panel:#141d30}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#233451,#080d1c 55%);color:#f1eee7;font:14px system-ui,sans-serif;min-height:100vh}button{font:inherit;color:#f6ebd5;border:1px solid #71613f;background:#242c43;border-radius:8px;padding:9px 12px;cursor:pointer;font-weight:650}button:hover:not(:disabled){background:#3c4965}button:disabled{opacity:.4;cursor:default}.primary{background:linear-gradient(120deg,#ad8141,#795322);border-color:#d9b769;color:white}.danger{background:linear-gradient(120deg,#a13a42,#6a1d24);border-color:#d87e87;color:#fff}.danger:hover:not(:disabled){background:#8f3038}main{max-width:1100px;margin:auto;padding:14px}header{text-align:center;margin:12px 0 18px}header small{letter-spacing:5px;color:var(--gold)}h1{font: bold clamp(28px,5vw,46px) Georgia;margin:4px 0;color:#ffe4a1;text-shadow:0 0 26px #d6a34a55}header p{color:var(--muted);margin:4px}h2,h3{margin:4px 0 10px;font-weight:650}h2{font-size:19px}h3{font-size:15px}.resources{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-bottom:10px}.resource{border:1px solid var(--line);background:#111a2c;border-radius:9px;padding:8px;text-align:center}.resource span{color:var(--muted);font-size:10px;letter-spacing:1px;display:block}.resource b{font-size:clamp(16px,3vw,24px);color:var(--gold)}nav{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}nav button{flex:1;white-space:nowrap}nav button.active{border-color:var(--gold);background:#453827}.layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:10px}.panel{background:#11192be8;border:1px solid var(--line);border-radius:12px;padding:12px}.arena{position:relative;isolation:isolate;overflow:hidden;min-height:415px;border:1px solid #64708a;border-radius:12px;background:radial-gradient(ellipse at 50% 30%,#5b5365 0%,#25364c 45%,#12172a 80%);padding:12px 8px 10px}.arena:before{content:'';z-index:-1;position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 12%,#bbbfce12 12% 14%,#080b1b50 14% 15%,transparent 15% 24%),repeating-linear-gradient(0deg,transparent 0 67px,#d0bda51b 68px 69px);mask-image:linear-gradient(#000,transparent 65%)}.arena[data-zone='1']{background:radial-gradient(ellipse at top,#354a75,#171b38)}.arena[data-zone='2']{background:radial-gradient(ellipse at top,#67502e,#1d2235)}.arena[data-zone='3']{background:radial-gradient(ellipse at top,#6687a3,#111c30)}.arena[data-zone='4']{background:radial-gradient(ellipse at top,#226b83,#13283f)}.arena[data-zone='5'],.arena[data-zone='6']{background:radial-gradient(ellipse at top,#693840,#1d142c)}.arena[data-zone='7'],.arena[data-zone='8'],.arena[data-zone='9']{background:radial-gradient(ellipse at top,#81704c,#252145)}.floor{text-align:center;letter-spacing:2px;font-size:12px;color:#f5d995}.floor b{display:block;font: bold 24px Georgia;color:#fff0c6;letter-spacing:0}.fighters{display:flex;justify-content:center;align-items:center;gap:clamp(3px,1vw,10px);min-height:108px;margin:10px 0}.fighter,.collect{--rar:#b68a64;--glow:#7dbbff;position:relative;flex:1;min-width:0;max-width:112px;border:2px solid var(--rar);background:linear-gradient(150deg,#37445c,#101625 75%);border-radius:8px;box-shadow:0 4px 14px #0007;overflow:visible;transform-origin:center}.fighter{cursor:pointer}.enemy .fighter{border-color:#ce7679}.portrait{aspect-ratio: 1.14;position:relative;border-radius:5px 5px 0 0;overflow:hidden;background:#2b3a52}.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 26%;display:block}.portrait .level{position:absolute;bottom:3px;left:3px;background:#0a1024da;border-radius:3px;padding:2px 4px;font-size:10px}.portrait .stars{position:absolute;top:3px;right:3px;text-shadow:0 1px 3px #000;color:#ffe69c;font-size:10px;max-width:90%;overflow:hidden}.fighter .name,.collect .name{text-align:center;font-size:clamp(9px,1.5vw,13px);font-weight:750;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:3px 1px}.bar{height:6px;background:#2c3449;border-radius:8px;overflow:hidden;margin:3px 4px}.bar i{display:block;height:100%;border-radius:8px;background:#61cc96;transition:width .18s}.bar.cos i{background:#64afff}.bar.xp i{background:#e9c26a}.enemy .bar i{background:#f26c7e}.tiny{font-size:10px;color:var(--muted);text-align:center;margin:3px}.dead{opacity:.3;filter:grayscale(1)}.slot{max-width:112px;flex:1;border:1px dashed #8390ad66;border-radius:8px;text-align:center;color:#b4bfd0;font-size:10px;padding:36px 2px;align-self:stretch;background:#090e1d33}.middle{height:62px;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;gap:4px}.middle b{font: italic bold 21px Georgia;color:#ffe1a0;text-shadow:0 2px 12px #000}.middle span{font-size:11px;color:#d1d9ee}.controls{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.controls button{flex:1}.log{height:190px;overflow:auto;border-top:1px solid var(--line);margin:10px 0;padding-top:6px;line-height:1.6;font-size:12px;color:#c1c8d8}.log div{padding:4px 0;border-bottom:1px solid #ffffff09}.log .good{color:#a5e2ac}.muted{color:var(--muted);font-size:12px}.collection{display:grid;grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:9px}.collect{max-width:none;padding-bottom:7px}.collect .portrait{aspect-ratio: 4/4.5}.collect .name{font-size:14px}.collect .stats{display:flex;justify-content:space-around;font-size:11px;margin:7px 2px}.collect button{font-size:11px;padding:6px 5px;width:calc(100% - 10px);margin:3px 5px}.selected{box-shadow:0 0 0 2px #87d6a8}.info{padding:9px;background:#202a40;border-radius:8px;margin:8px 0}.fx{position:absolute;pointer-events:none;z-index:10;inset:0;overflow:hidden}.dmg{position:absolute;font-weight:900;font-size:22px;text-shadow:0 2px 4px black;color:#ff8791;animation:float .8s forwards;white-space:nowrap}.spark{position:absolute;width:11px;height:11px;border-radius:100%;background:currentColor;box-shadow:0 0 18px 5px currentColor;animation:fire .36s forwards}.ring{position:absolute;width:36px;height:36px;border-radius:50%;border:3px solid currentColor;box-shadow:0 0 18px currentColor;animation:ring .42s forwards}.lunge{animation:lunge .4s ease-out}.hit{animation:hit .32s ease-out}.heal{animation:heal .5s}.glow{animation:heal .6s}.shake{animation:arenaShake .23s}@keyframes lunge{40%{transform:translate(var(--dx),var(--dy)) scale(1.15);filter:brightness(1.5);z-index:8}100%{transform:none}}@keyframes hit{25%{transform:translateX(-5px);filter:brightness(2)}65%{transform:translateX(5px)}}@keyframes heal{50%{box-shadow:0 0 24px 5px var(--glow);filter:brightness(1.35)}}@keyframes float{0%{opacity:1;transform:translate(-50%,-5px) scale(.8)}25%{transform:translate(-50%,-17px) scale(1.2)}100%{opacity:0;transform:translate(-50%,-55px)}}@keyframes fire{to{transform:translate(var(--dx),var(--dy)) scale(.5);opacity:.2}}@keyframes ring{0%{transform:translate(-50%,-50%) scale(.3)}100%{transform:translate(-50%,-50%) scale(2.4);opacity:0}}@keyframes arenaShake{25%{transform:translateX(-2px)}75%{transform:translateX(2px)}}dialog{background:#151e30;color:white;border:1px solid #b99a60;border-radius:14px;padding:20px;max-width:min(650px,94vw);width:100%;max-height:90vh}dialog::backdrop{background:#050914c9}footer{font-size:11px;color:#9ba4b8;text-align:center;padding:15px}a{color:#c4d5fe}.hidden{display:none!important}.choice{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.choice button{padding:4px;min-width:0}.choice img{width:100%;border-radius:6px;aspect-ratio:4/5;object-fit:cover}.choice small{display:block;overflow:hidden;text-overflow:ellipsis}.pill{display:inline-block;background:#2b3549;padding:3px 6px;border-radius:6px;font-size:11px}.itemrow{display:flex;align-items:center;justify-content:space-between;gap:6px;border-bottom:1px solid var(--line);padding:9px 0;flex-wrap:wrap}select{background:#232e45;border:1px solid #53617c;color:white;padding:7px;border-radius:6px}.bossmark{color:#ff9a7d}.notice{color:#e8ca8b;font-size:12px;margin-top:8px}.progress{height:6px;background:#303b51;border-radius:5px;overflow:hidden}.progress i{display:block;height:100%;background:#d9b66e} @media(max-width:740px){main{padding:8px}.layout{grid-template-columns:1fr}.arena{min-height:360px}.panel{padding:9px}.middle{height:55px}.fighters{min-height:90px}.resources{gap:4px}nav button{font-size:12px;padding:8px}.choice{grid-template-columns:repeat(3,1fr)}.log{height:110px}.collection{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}}@media(prefers-reduced-motion:reduce){.lunge,.hit,.heal,.glow,.shake{animation:none}}
 
 .homeGrid{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:12px}.homeHero{background:linear-gradient(125deg,#302c3f,#172239 60%,#101829);border-color:#82704c}.homeHero h2{font: bold 27px Georgia;color:#ffe4a1}.homeHero p{line-height:1.6}.formation{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:14px 0}.formation .collect{max-width:100%;width:100%;min-width:0}.formation .slot{max-width:none;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:126px;padding:8px 2px;gap:6px}.formation .slot b{font-size:12px;color:#e4c784}.formation .slot small{font-size:10px}.runSummary{border:1px solid #776447;padding:12px;border-radius:8px;margin:12px 0;background:#272536}.runSummary b{color:#f3d394}.shopcard .portrait{aspect-ratio:3/3.3}.shopcard{max-width:none}.shopprice{color:#f3d394;font-weight:750;text-align:center;margin:5px}.menuActions{display:flex;gap:8px;flex-wrap:wrap}.menuActions button{flex:1}.rules{margin:12px 0;padding-left:18px;line-height:1.75;color:#bfc9de;font-size:13px}.subgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:12px 0}.subpanel{background:#202a40;border:1px solid var(--line);border-radius:10px;padding:10px}.packGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px}.packCard{border:1px solid #5b667f;border-radius:9px;padding:9px;background:#162035}.packCard b{display:block;color:#f1d08a;margin-bottom:4px}.packCard .tiny{margin:3px 0 7px;text-align:left}.lockedNote{font-size:12px;color:#f1c879}.teamLine{font-size:12px;color:var(--muted);margin:8px 0}.shopfilter{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap}.shopfilter input,.shopfilter select{flex:1;min-width:120px;background:#10182a;border:1px solid #59627b;border-radius:7px;padding:9px;color:#eee;font:inherit}.shopcard button{width:100%}.shopcard .tiny{min-height:14px}.formation .collect button{font-size:10px;padding:5px}.shopcard .name{white-space:normal}.progression{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin:10px 0}.progression div{border:1px solid #45536d;text-align:center;padding:8px 2px;border-radius:7px;color:var(--muted);font-size:11px}.progression .open{border-color:#c6a45f;color:#ffe2a0;background:#423622}.progression b{display:block;font-size:14px}.homeHero .primary{font-size:16px;padding:14px}.shopcard .stats{min-height:28px}
@@ -153,7 +153,7 @@ main>.resources>.resource{min-width:0;display:flex;flex-direction:column;align-i
 #nav>button.active{border-color:#e7c47a;background:linear-gradient(135deg,#53432d,#3c3023);box-shadow:inset 0 0 0 1px #e7c47a24}
 @media(max-width:850px){#nav>button{flex-basis:calc((100% - 24px)/5)}}
 @media(max-width:600px){main>header{margin:6px auto 12px;padding:5px 2px}main>.resources{gap:4px;margin-bottom:8px}main>.resources>.resource{min-height:52px}main>.resources>.resource span{font-size:9px;letter-spacing:.4px}#nav{gap:5px;margin:8px auto 10px}#nav>button{flex-basis:calc((100% - 10px)/3);min-height:38px;font-size:11px;padding:5px 3px}}
-</style><style id="titles56Style">.titleSummary56{padding:16px}.titleSummary56 p{margin:7px 0 12px}.slots56{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}.slot56{display:flex;flex-direction:column;align-items:center;gap:5px;padding:11px 8px;background:#152034;border:1px solid #48556e;border-radius:10px;min-width:0;overflow-wrap:anywhere}.slot56.filled56{background:linear-gradient(140deg,#373022,#1a2a40);border-color:#be9b5b}.slot56 span{font-size:11px;color:#d9bd82;font-weight:700}.slot56 strong{font-size:13px;color:#f2e2bf}.slot56 small{color:#9ee4b2;font-size:11px}.slot56 button{font-size:11px;padding:5px 10px;margin-top:auto}.slot56:not(.filled56) small{color:#9baac1}@media(max-width:650px){.slots56{grid-template-columns:repeat(2,minmax(0,1fr))}.titleSummary56{padding:10px}}@media(max-width:340px){.slots56{grid-template-columns:1fr}}</style></head><body><div id="devBanner" hidden>⚙ MODO DESENVOLVEDOR · TESTE TEMPORÁRIO · progresso normal protegido</div><main><header><small>IDLE RPG</small><h1>COSMO TOWER <span style="font-size:.65em">500F</span></h1><p>A Luta dos Deuses · Versão 1.13</p></header><div class="resources"><div class="resource"><span>OURO</span><b id="gold">0</b></div><div class="resource"><span>GEMAS</span><b id="gem">0</b></div><div class="resource"><span>PODER</span><b id="power">0</b></div><div class="resource"><span>RECORDE</span><b id="best">0</b></div></div><nav id="nav"><button data-tab="home" class="active">⌂ Menu principal</button><button data-tab="tower">⚔ Torre</button><button data-tab="pvp">⚔ Arena</button><button data-tab="global">✦ Chefe Global</button><button data-tab="cards">▣ Formação</button><button data-tab="items">⬡ Armadura</button><button data-tab="summon">✦ Loja Cosmo Tower</button><button data-tab="checkin">🎁 Check-in diário</button><button data-tab="options">⚙ Opções</button></nav><div id="battleMonitor" class="battleMonitor" hidden role="status" aria-live="polite"><div><strong id="battleMonitorTitle"></strong><div id="battleMonitorText" class="muted"></div><div id="battleLosses"></div></div><button data-tab="tower" id="battleBack" class="primary">Voltar à batalha</button><button id="battleDismiss" hidden>Fechar</button></div><section id="home" class="homeGrid"><div class="panel homeHero"><div class="heroArt" role="img" aria-label="COSMO TOWER 500F — A Luta dos Deuses"><div class="heroArtHeading"><small>✦ COSMO TOWER · 500F</small><strong>A TORRE DO COSMO</strong></div></div><div class="musicQuick"><span id="musicTrack">Trilha sonora original</span><button id="homeMusic" type="button">♫ Ativar música</button></div><div class="muted">SANTUÁRIO · PREPARAÇÃO</div><h2>Prepare a sua próxima ascensão</h2><p>Monte sua formação antes de entrar. Toda tentativa começa no andar 1; o recorde, ouro, experiência e equipamentos conquistados ficam com você.</p><div id="runSummary" class="runSummary hidden"></div><div id="dailyHome" class="dailyHome"><div><b>🎁 Check-in diário</b><div id="dailyHomeStatus" class="muted"></div></div><button data-tab="checkin" class="primary">Ver recompensas</button></div><div id="missionHome" class="info"></div><h3>Formação atual</h3><div id="formation" class="formation"></div><div id="homeTeam" class="teamLine"></div><div class="menuActions"><button id="enter" class="primary">⚔ Entrar na torre</button><button data-tab="cards">Editar formação</button><button data-tab="summon">Loja Cosmo Tower</button></div></div><aside class="panel"><h2>Perfil do jogador</h2><div class="profileCard"><div class="profileName" id="playerNameHome">Jogador</div><div class="profileEmail" id="playerEmailHome">—</div><div class="profileMeta" id="accountHome"></div><span id="onlineCount" class="muted">Jogadores online: — (servidor indisponível)</span><div class="progress" style="margin:8px 0"><i id="accountProgress"></i></div><div id="accountXP" class="muted"></div><p id="pvpHome" class="notice"></p><p id="vipHomeStatus" class="notice" aria-live="polite"></p><button data-tab="pvp" class="miniButton">PvP</button></div><div class="profileCard googleOffer"><h3>Presente de boas-vindas</h3><strong class="googleGold">+100 ouro</strong><p id="googleRewardStatus" class="muted">Vincule sua conta Google e receba 100 ouro uma única vez.</p><button id="googleRewardLink" class="primary miniButton">Vincular Google</button></div><h2>Espaços de combate</h2><div id="unlocksDisplay" class="progression"></div><p id="homeGoal" class="muted"></p><h3>Regras da ascensão</h3><ul class="rules"><li>Subida obrigatória, do andar 1 até a derrota.</li><li>Vida não se restaura totalmente entre andares.</li><li>Cavaleiros derrotados só retornam na próxima tentativa.</li><li>Recompensas permanentes; tentativas ilimitadas.</li><li>Novos espaços não concedem cartas nem alteram a equipe em combate.</li></ul><h3 style="margin-top:16px">Velocidades de combate</h3><div id="homeSpeeds" class="speedlist"></div><button data-tab="summon" style="width:100%;margin-top:9px">Ver Loja Cosmo Tower</button></aside></section><section id="tower" class="layout hidden"><div class="towerMain39"><div id="arena" class="arena"><div class="floor"><span id="zone"></span><b id="floor">Andar 1/100</b><div id="floorStage" class="floorStage" role="progressbar" aria-label="Progresso do setor" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="floorStageFill"></i></div><span id="floorStageText" class="floorStageText"></span><span id="boss"></span><div id="bossAbility" class="bossAbility"></div></div><div class="fighters enemy" id="enemies"></div><div class="middle"><b id="spell">O destino está em suas mãos</b><span id="status">Escolha seu primeiro cavaleiro.</span></div><div class="fighters" id="team"></div><div class="fx" id="fx"></div></div><div class="controls"><button id="play" class="primary">▶ Iniciar</button><button id="speed">1×</button><button id="giveup" class="danger">Desistir</button></div><section id="towerLoot39" class="panel" aria-label="Recompensas da Torre"><header><h3>Recompensas da subida</h3><small>Últimos itens e ouro recebidos</small></header><div id="towerLootRows39" aria-live="polite"><p class="muted">Vença andares para receber recompensas.</p></div></section></div><aside class="panel towerStatus39"><div id="globalFightHud35" class="info" hidden></div><div id="towerFormation35"></div><div class="muted" id="goal">Próximo espaço: andar 30</div><div class="progress" style="margin:8px 0"><i id="progress"></i></div><div id="speedHint" class="notice">2×: 2.500 ouro.</div><div id="teamInfo" class="info"></div><div id="climbStatus" class="info climbStatusBox"></div><div id="log" hidden aria-hidden="true"></div><div class="muted">Clique em uma carta aliada para ver seus atributos. Os golpes especiais são disparados automaticamente quando o cosmo enche.</div></aside></section><section id="cards" class="panel hidden"><h2>Seus Campeões</h2><p class="muted">Selecione os cavaleiros que participarão da próxima tentativa. Distribua pontos e evolua suas cartas. Durante a batalha, os equipamentos dos participantes ficam bloqueados. A formação permanece bloqueada até o fim da subida.</p><div class="controls gearActions"><button class="primary" data-auto-gear="team">⚡ EQUIPAR AUTO · Formação</button></div><p class="muted">Seleciona os campeões de maior poder, preenche os espaços liberados e equipa as melhores peças disponíveis. As peças dos demais campeões são preservadas.</p><div id="autoFormationStatus" class="info autoFormationStatus" role="status" aria-live="polite"></div><div id="formationTeam35"></div><h3 class="formationTitle35">Campeões disponíveis</h3><div id="collection" class="collection"></div></section><section id="summon" class="panel hidden"><h2>Loja Cosmo Tower</h2><p class="muted">Comuns e incomuns: ouro ou gemas. Raros ou superiores: somente gemas ou invocações. Gemas: loja, VIP e check-in diário.</p><div class="storeBanner"><div><strong>Loja Premium do Cosmo</strong><small>Invocações, baús, velocidades permanentes, VIP e gemas em um layout mais claro e chamativo.</small></div><div class="storeMiniTips"><span>★ Pacotes 10× = desconto</span><span>◆ Gemas = raridades altas</span><span>⚡ Velocidades = progresso mais rápido</span></div></div><div class="subgrid"><div class="subpanel"><h3>Invocações · Baús de CAMPEÕES</h3><div id="packStore" class="packGrid"></div><p class="notice">Ouro 10×: 1 Raro+ garantido. Gemas 1×: Épico+ garantido. Gemas 10×: todos Raro+ e pelo menos 1 Épico+. Pacotes 10×: 10% de desconto.</p><div id="odds" class="info" style="font-size:12px"></div><h3 style="margin-top:22px">Baús de equipamentos</h3><p class="muted">Uma peça por sorteio. Todas as sete raridades. Mesmas chances e garantias dos baús de campeões.</p><div id="gearPackStore" class="packGrid"></div><div id="gearResults" aria-live="polite"></div><p class="muted">Gemas: loja, VIP e check-in diário. Não são recompensas da torre.</p></div><div class="subpanel"><h3>Velocidades permanentes</h3><div id="speedStore" class="packGrid"></div><h3 style="margin-top:12px">VIP do Cosmo</h3><div id="vipStore" class="packGrid"></div><p id="vipInfo" class="muted"></p><div class="packCard" style="margin-top:12px;border-color:#d9b769"><b>VIP SEM ANÚNCIOS</b><p class="tiny">Remoção permanente de anúncios · compra única<br><strong>+10% XP e +10% ouro permanentemente</strong></p><div class="price">R$ 19,90</div><button disabled>Comprar · em breve</button><p class="tiny">Disponível após integração de pagamentos. Esta versão já não exibe anúncios.</p><div id="vipAdStatus" class="tiny vipAdStatus" role="status"></div><button id="vipAdDemo" class="vipDemo" type="button">Testar bônus VIP (modo local)</button><p class="tiny">Teste gratuito no modo desenvolvedor, sem cobrança e sem compra real. O direito comercial será validado pelo servidor.</p></div></div></div><div class="subpanel cashStore"><h3>Loja de gemas · dinheiro real</h3><p class="muted">Pacotes de gemas para invocações, cavaleiros e velocidades permanentes.</p><div id="cashStore" class="packGrid"></div><p class="notice">Preços ilustrativos em reais. Pagamentos ainda indisponíveis nesta versão local; nenhum valor será cobrado.</p></div><h3>Catálogo de 48 campeões</h3><p class="muted">18 Comuns evolutivos · 24 Lendários das Nações · 6 Celestiais</p><p class="notice">Selecione uma raridade para ver as formas evoluídas. Cartas repetidas concedem fragmentos; uma raridade superior concede fragmentos adicionais. Nenhuma carta repetida pula a evolução. Campeões ainda não adquiridos entram na raridade obtida. A evolução manual continua exigindo nível 100 e um fragmento.</p><div class="shopfilter"><input id="shopSearch" placeholder="Buscar nome, país, estilo ou função" aria-label="Buscar cavaleiro"><select id="shopRarity" aria-label="Raridade"><option value="all">Todas as raridades</option><option value="1">Comum</option><option value="2">Incomum</option><option value="3">Raro</option><option value="4">Épico</option><option value="5">Lendário</option><option value="6">Divino</option><option value="7">Celestial</option></select></div><div id="shop" class="collection"></div><p id="shopMessage" class="muted" aria-live="polite"></p></section><section id="items" class="panel hidden"><h2>Armadura e equipamentos</h2><p class="muted">Peças conquistadas em batalha, baús e recompensas. Cada cavaleiro pode portar uma peça de cada tipo. Venda equipamentos por ouro ou gerencie-os diretamente na Formação.</p><div class="controls gearActions"><button class="primary" data-auto-gear="all">⚡ EQUIPAR AUTO</button><button data-remove-gear="all">RETIRAR AUTO</button></div><div id="gearSummary" class="info"></div><div id="forgeInfo" class="forgeOverview" aria-label="Cristais de forja">
+</style><style id="titles56Style">.titleSummary56{padding:16px}.titleSummary56 p{margin:7px 0 12px}.slots56{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}.slot56{display:flex;flex-direction:column;align-items:center;gap:5px;padding:11px 8px;background:#152034;border:1px solid #48556e;border-radius:10px;min-width:0;overflow-wrap:anywhere}.slot56.filled56{background:linear-gradient(140deg,#373022,#1a2a40);border-color:#be9b5b}.slot56 span{font-size:11px;color:#d9bd82;font-weight:700}.slot56 strong{font-size:13px;color:#f2e2bf}.slot56 small{color:#9ee4b2;font-size:11px}.slot56 button{font-size:11px;padding:5px 10px;margin-top:auto}.slot56:not(.filled56) small{color:#9baac1}@media(max-width:650px){.slots56{grid-template-columns:repeat(2,minmax(0,1fr))}.titleSummary56{padding:10px}}@media(max-width:340px){.slots56{grid-template-columns:1fr}}</style></head><body><div id="devBanner" hidden>⚙ MODO DESENVOLVEDOR · TESTE TEMPORÁRIO · progresso normal protegido</div><main><header><small>IDLE RPG</small><h1>COSMO TOWER <span style="font-size:.65em">500F</span></h1><p>A Luta dos Deuses · Versão 1.15</p></header><div class="resources"><div class="resource"><span>OURO</span><b id="gold">0</b></div><div class="resource"><span>GEMAS</span><b id="gem">0</b></div><div class="resource"><span>PODER</span><b id="power">0</b></div><div class="resource"><span>RECORDE</span><b id="best">0</b></div></div><nav id="nav"><button data-tab="home" class="active">⌂ Menu principal</button><button data-tab="tower">⚔ Torre</button><button data-tab="pvp">⚔ Arena</button><button data-tab="global">✦ Chefe Global</button><button data-tab="cards">▣ Formação</button><button data-tab="items">⬡ Armadura</button><button data-tab="summon">✦ Loja Cosmo Tower</button><button data-tab="checkin">🎁 Check-in diário</button><button data-tab="options">⚙ Opções</button></nav><div id="battleMonitor" class="battleMonitor" hidden role="status" aria-live="polite"><div><strong id="battleMonitorTitle"></strong><div id="battleMonitorText" class="muted"></div><div id="battleLosses"></div></div><button data-tab="tower" id="battleBack" class="primary">Voltar à batalha</button><button id="battleDismiss" hidden>Fechar</button></div><section id="home" class="homeGrid"><div class="panel homeHero"><div class="heroArt" role="img" aria-label="COSMO TOWER 500F — A Luta dos Deuses"><div class="heroArtHeading"><small>✦ COSMO TOWER · 500F</small><strong>A TORRE DO COSMO</strong></div></div><div class="musicQuick"><span id="musicTrack">Trilha sonora original</span><button id="homeMusic" type="button">♫ Ativar música</button></div><div class="muted">SANTUÁRIO · PREPARAÇÃO</div><h2>Prepare a sua próxima ascensão</h2><p>Monte sua formação antes de entrar. Toda tentativa começa no andar 1; o recorde, ouro, experiência e equipamentos conquistados ficam com você.</p><div id="runSummary" class="runSummary hidden"></div><div id="dailyHome" class="dailyHome"><div><b>🎁 Check-in diário</b><div id="dailyHomeStatus" class="muted"></div></div><button data-tab="checkin" class="primary">Ver recompensas</button></div><div id="missionHome" class="info"></div><h3>Formação atual</h3><div id="formation" class="formation"></div><div id="homeTeam" class="teamLine"></div><div class="menuActions"><button id="enter" class="primary">⚔ Entrar na torre</button><button data-tab="cards">Editar formação</button><button data-tab="summon">Loja Cosmo Tower</button></div></div><aside class="panel"><h2>Perfil do jogador</h2><div class="profileCard"><div class="profileName" id="playerNameHome">Jogador</div><div class="profileEmail" id="playerEmailHome">—</div><div class="profileMeta" id="accountHome"></div><span id="onlineCount" class="muted">Jogadores online: — (servidor indisponível)</span><div class="progress" style="margin:8px 0"><i id="accountProgress"></i></div><div id="accountXP" class="muted"></div><p id="pvpHome" class="notice"></p><p id="vipHomeStatus" class="notice" aria-live="polite"></p><button data-tab="pvp" class="miniButton">PvP</button></div><div class="profileCard googleOffer"><h3>Presente de boas-vindas</h3><strong class="googleGold">+100 ouro</strong><p id="googleRewardStatus" class="muted">Vincule sua conta Google e receba 100 ouro uma única vez.</p><button id="googleRewardLink" class="primary miniButton">Vincular Google</button></div><h2>Espaços de combate</h2><div id="unlocksDisplay" class="progression"></div><p id="homeGoal" class="muted"></p><h3>Regras da ascensão</h3><ul class="rules"><li>Subida obrigatória, do andar 1 até a derrota.</li><li>Vida não se restaura totalmente entre andares.</li><li>Cavaleiros derrotados só retornam na próxima tentativa.</li><li>Recompensas permanentes; tentativas ilimitadas.</li><li>Novos espaços não concedem cartas nem alteram a equipe em combate.</li></ul><h3 style="margin-top:16px">Velocidades de combate</h3><div id="homeSpeeds" class="speedlist"></div><button data-tab="summon" style="width:100%;margin-top:9px">Ver Loja Cosmo Tower</button></aside></section><section id="tower" class="layout hidden"><div class="towerMain39"><div id="arena" class="arena"><div class="floor"><span id="zone"></span><b id="floor">Andar 1/100</b><div id="floorStage" class="floorStage" role="progressbar" aria-label="Progresso do setor" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="floorStageFill"></i></div><span id="floorStageText" class="floorStageText"></span><span id="boss"></span><div id="bossAbility" class="bossAbility"></div></div><div class="fighters enemy" id="enemies"></div><div class="middle"><b id="spell">O destino está em suas mãos</b><span id="status">Escolha seu primeiro cavaleiro.</span></div><div class="fighters" id="team"></div><div class="fx" id="fx"></div></div><div class="controls"><button id="play" class="primary">▶ Iniciar</button><button id="speed">1×</button><button id="giveup" class="danger">Desistir</button></div><section id="towerLoot39" class="panel" aria-label="Recompensas da Torre"><header><h3>Recompensas da subida</h3><small>Últimos itens e ouro recebidos</small></header><div id="towerLootRows39" aria-live="polite"><p class="muted">Vença andares para receber recompensas.</p></div></section></div><aside class="panel towerStatus39"><div id="globalFightHud35" class="info" hidden></div><div id="towerFormation35"></div><div class="muted" id="goal">Próximo espaço: andar 30</div><div class="progress" style="margin:8px 0"><i id="progress"></i></div><div id="speedHint" class="notice">2×: 2.500 ouro.</div><div id="teamInfo" class="info"></div><div id="climbStatus" class="info climbStatusBox"></div><div id="log" hidden aria-hidden="true"></div><div class="muted">Clique em uma carta aliada para ver seus atributos. Os golpes especiais são disparados automaticamente quando o cosmo enche.</div></aside></section><section id="cards" class="panel hidden"><h2>Seus Campeões</h2><p class="muted">Selecione os cavaleiros que participarão da próxima tentativa. Distribua pontos e evolua suas cartas. Durante a batalha, os equipamentos dos participantes ficam bloqueados. A formação permanece bloqueada até o fim da subida.</p><div class="controls gearActions"><button class="primary" data-auto-gear="team">⚡ EQUIPAR AUTO · Formação</button></div><p class="muted">Seleciona os campeões de maior poder, preenche os espaços liberados e equipa as melhores peças disponíveis. As peças dos demais campeões são preservadas.</p><div id="autoFormationStatus" class="info autoFormationStatus" role="status" aria-live="polite"></div><div id="formationTeam35"></div><h3 class="formationTitle35">Campeões disponíveis</h3><div id="collection" class="collection"></div></section><section id="summon" class="panel hidden"><h2>Loja Cosmo Tower</h2><p class="muted">Comuns e incomuns: ouro ou gemas. Raros ou superiores: somente gemas ou invocações. Gemas: loja, VIP e check-in diário.</p><div class="storeBanner"><div><strong>Loja Premium do Cosmo</strong><small>Invocações, baús, velocidades permanentes, VIP e gemas em um layout mais claro e chamativo.</small></div><div class="storeMiniTips"><span>★ Pacotes 10× = desconto</span><span>◆ Gemas = raridades altas</span><span>⚡ Velocidades = progresso mais rápido</span></div></div><div class="subgrid"><div class="subpanel"><h3>Invocações · Baús de CAMPEÕES</h3><div id="packStore" class="packGrid"></div><p class="notice">Ouro 10×: 1 Raro+ garantido. Gemas 1×: Épico+ garantido. Gemas 10×: todos Raro+ e pelo menos 1 Épico+. Pacotes 10×: 10% de desconto.</p><div id="odds" class="info" style="font-size:12px"></div><h3 style="margin-top:22px">Baús de equipamentos</h3><p class="muted">Uma peça por sorteio. Todas as sete raridades. Mesmas chances e garantias dos baús de campeões.</p><div id="gearPackStore" class="packGrid"></div><div id="gearResults" aria-live="polite"></div><p class="muted">Gemas: loja, VIP e check-in diário. Não são recompensas da torre.</p></div><div class="subpanel"><h3>Velocidades permanentes</h3><div id="speedStore" class="packGrid"></div><h3 style="margin-top:12px">VIP do Cosmo</h3><div id="vipStore" class="packGrid"></div><p id="vipInfo" class="muted"></p><div class="packCard" style="margin-top:12px;border-color:#d9b769"><b>VIP SEM ANÚNCIOS</b><p class="tiny">Remoção permanente de anúncios · compra única<br><strong>+10% XP e +10% ouro permanentemente</strong></p><div class="price">R$ 19,90</div><button disabled>Comprar · em breve</button><p class="tiny">Disponível após integração de pagamentos. Esta versão já não exibe anúncios.</p><div id="vipAdStatus" class="tiny vipAdStatus" role="status"></div><button id="vipAdDemo" class="vipDemo" type="button">Testar bônus VIP (modo local)</button><p class="tiny">Teste gratuito no modo desenvolvedor, sem cobrança e sem compra real. O direito comercial será validado pelo servidor.</p></div></div></div><div class="subpanel cashStore"><h3>Loja de gemas · dinheiro real</h3><p class="muted">Pacotes de gemas para invocações, cavaleiros e velocidades permanentes.</p><div id="cashStore" class="packGrid"></div><p class="notice">Preços ilustrativos em reais. Pagamentos ainda indisponíveis nesta versão local; nenhum valor será cobrado.</p></div><h3>Catálogo de 48 campeões</h3><p class="muted">18 Comuns evolutivos · 24 Lendários das Nações · 6 Celestiais</p><p class="notice">Selecione uma raridade para ver as formas evoluídas. Cartas repetidas concedem fragmentos; uma raridade superior concede fragmentos adicionais. Nenhuma carta repetida pula a evolução. Campeões ainda não adquiridos entram na raridade obtida. A evolução manual continua exigindo nível 100 e um fragmento.</p><div class="shopfilter"><input id="shopSearch" placeholder="Buscar nome, país, estilo ou função" aria-label="Buscar cavaleiro"><select id="shopRarity" aria-label="Raridade"><option value="all">Todas as raridades</option><option value="1">Comum</option><option value="2">Incomum</option><option value="3">Raro</option><option value="4">Épico</option><option value="5">Lendário</option><option value="6">Divino</option><option value="7">Celestial</option></select></div><div id="shop" class="collection"></div><p id="shopMessage" class="muted" aria-live="polite"></p></section><section id="items" class="panel hidden"><h2>Armadura e equipamentos</h2><p class="muted">Peças conquistadas em batalha, baús e recompensas. Cada cavaleiro pode portar uma peça de cada tipo. Venda equipamentos por ouro ou gerencie-os diretamente na Formação.</p><div class="controls gearActions"><button class="primary" data-auto-gear="all">⚡ EQUIPAR AUTO</button><button data-remove-gear="all">RETIRAR AUTO</button></div><div id="gearSummary" class="info"></div><div id="forgeInfo" class="forgeOverview" aria-label="Cristais de forja">
 <div class="forgeBalance"><div class="forgeCrystal" aria-hidden="true"><svg viewBox="0 0 64 72" focusable="false"><defs><linearGradient id="forgeGemShade" x2="1" y2="1"><stop stop-color="#f1dcff"/><stop offset=".48" stop-color="#b07bff"/><stop offset="1" stop-color="#6540ba"/></linearGradient></defs><path d="M32 3 51 20 57 42 32 69 7 42 13 20Z" fill="url(#forgeGemShade)" stroke="#e9d2ff" stroke-width="1.5"/><path d="M32 3 23 25 7 42 32 69 41 39 51 20 32 3M13 20 23 25 41 39 57 42M23 25 32 69" fill="none" stroke="#f3dfff" stroke-opacity=".68" stroke-width="1.5"/><path d="M51 20 41 39 32 69 57 42Z" fill="#6d3bb6" opacity=".55"/></svg></div><div><h3>Cristais de forja</h3><strong id="forgeBalanceValue" aria-live="polite">0</strong><small>Disponíveis para aprimorar</small></div></div>
 <div class="forgeGuide"><h3>Como usar</h3><p>Escolha uma peça no inventário e clique em Forja para aumentar seu atributo base em 8% por nível, até +15.</p><div class="forgeSteps"><div><b>+1 a +5</b><span>Somente ouro</span></div><div><b>+6 a +15</b><span>Ouro + 1 cristal por nível</span></div></div></div>
 <div class="forgeSources"><h3>Como obter</h3><p>Resgate cristais no calendário mensal, nas missões diárias e semanais e nas conquistas da torre.</p><button type="button" data-tab="checkin">Ver recompensas e missões</button></div>
@@ -165,7 +165,7 @@ main>.resources>.resource{min-width:0;display:flex;flex-direction:column;align-i
 <div class="controls"><button id="googleConnect">Vincular Google</button><button id="googleDisconnect" disabled>Desconectar</button></div>
 <div class="controls"><button id="googleCloudSave" disabled>Salvar na nuvem</button><button id="googleCloudLoad" disabled>Carregar da nuvem</button></div><p id="googleStatus" class="notice" aria-live="polite">No arquivo local, use Exportar e Importar progresso. A vinculação depende da publicação HTTPS e da configuração OAuth.</p></div>
 </div>
-<div class="controls"><button id="save">Salvar agora</button><button id="export">Exportar progresso</button><button id="import">Importar progresso</button><button id="reset">Novo jogo</button></div><input id="file" type="file" accept="application/json,.json" class="hidden"><p class="notice" id="saveStatus"></p><p class="muted">Salvamento local automático quando permitido pelo navegador. Não há ganhos offline: as recompensas são obtidas exclusivamente em tentativas da torre. Exporte seu progresso para garantir uma cópia.</p><p class="muted">Universo Astralitas · 48 campeões inspirados na mitologia grega. Retratos fornecidos pelo criador e incorporados ao arquivo. Protótipo local; pagamentos e PvP online ainda indisponíveis.</p></section><footer>Universo Astralitas · protótipo local • versão 1.13 • 1.000 andares + torre infinita</footer></main><dialog id="startDialog" class="welcomeDialog"><div class="welcomeHero" role="img" aria-label="COSMO TOWER 500F — A Luta dos Deuses"><div class="welcomeHeroBox"><small>✦ IDLE RPG</small><strong>COSMO TOWER 500F</strong><div class="muted">Entre no Santuário, cadastre seu perfil e escolha o seu cavaleiro principal.</div></div></div><div class="welcomeBody"><div class="musicQuick"><span>Trilha sonora original</span><button id="welcomeMusic" type="button">♫ Ativar música</button></div><div class="onSteps" aria-label="Etapas"><span id="stepDot1" class="active">1. Seu perfil</span><span id="stepDot2" hidden>2. Nome</span><span id="stepDot3">2. Campeão inicial</span></div><div id="step1" class="stepPane"><div class="entryEyebrow52">A SUA LENDA COMEÇA AQUI</div><h2>Entre no Santuário</h2><div id="resumeProfile" class="profileResume" hidden><div id="resumeName"></div><button id="resumeGame" class="primary" type="button">CONTINUAR JORNADA</button><button id="newJourney53" type="button">CRIAR NOVA JORNADA</button><button id="exportJourney53" type="button" class="secondary53">Exportar progresso atual</button></div><div id="newProfile52"><p class="muted">Escolha seu nome e comece sua jornada. Vincular o Google é opcional.</p><label for="welcomeName">Nome do jogador</label><input id="welcomeName" type="text" maxlength="22" placeholder="Seu nome de guerreiro" autocomplete="nickname"><div id="welcomeNameStatus" class="welcomeStatus" role="status"></div><button id="welcomeGuestContinue" class="primary entryStart52" type="button">✦ INICIAR JORNADA</button><div class="entryRule52"><span>ou vincule sua conta</span></div><button id="welcomeGoogleContinue" type="button" class="google52"><span class="googleG52">G</span> Vincular Google <small>+100 ouro</small></button><p class="muted entryHint52">Você poderá vincular mais tarde em Opções.</p><details class="email52"><summary>Prefiro cadastrar um e-mail local</summary><label for="welcomeEmail">E-mail</label><input id="welcomeEmail" type="email" placeholder="voce@exemplo.com" autocomplete="email"><button id="welcomeEmailContinue" type="button">Continuar com e-mail</button></details></div><input id="welcomeLoginMode" type="hidden"><div id="welcomeStatus" class="welcomeStatus" role="status"></div></div><div id="step2" class="stepPane hiddenStep"><input id="welcomeShownEmail" type="hidden"><button id="welcomeBack1" hidden>Voltar</button><button id="welcomeNameContinue" hidden>Continuar</button></div><div id="step3" class="stepPane hiddenStep"><div class="entryEyebrow52">SEU PRIMEIRO CAMPEÃO</div><h2>Escolha seu destino</h2><p class="muted">Cinco campeões sorteados, cinco maneiras de começar. Escolha um para sua formação.</p><div class="starterGrid" id="choices"></div><div id="welcomeChoiceStatus" class="welcomeStatus"></div><button id="entryBack52" type="button">← Voltar ao perfil</button></div></div></dialog><dialog id="detail" class="detailDialog"><button id="closeDetailTop" class="dialogCloseX" aria-label="Fechar">✕</button><div id="detailBody"></div><button id="closeDetail" style="margin-top:12px;width:100%">Fechar</button></dialog><dialog id="chestReveal" aria-labelledby="revealTitle"><header class="revealHeader"><small>✦ COSMO TOWER · INVOCAÇÃO ✦</small><h2 id="revealTitle">Baú de invocação</h2><p id="revealSubtitle"></p><button id="revealClose" type="button" class="revealX" aria-label="Fechar">×</button></header><div id="revealStage" class="revealStage"><div id="revealChestArt"></div><p>Revelando as recompensas…</p><button id="revealSkip" type="button">Revelar agora</button></div><section id="revealContent" hidden><p id="revealSummary" role="status"></p><div id="revealCards" class="revealCards"></div><div class="revealFooter"><p id="revealQuestion">Deseja abrir outro baú?</p><div id="revealWallet"></div><div class="revealActions"><button id="revealNo" type="button">Não, voltar à loja</button><button id="revealAgain" type="button" class="primary">Abrir novamente</button></div><small id="revealHint"></small></div></section></dialog><div id="rewardToast35" role="status" aria-live="polite" hidden></div><dialog id="rewardModal35"><div id="rewardBody35"></div><button id="rewardOK35" class="primary" style="width:100%">Continuar</button></dialog><dialog id="sellHero35"><div id="sellBody35"></div><div class="controls"><button id="sellCancel35">Cancelar</button><button id="sellConfirm35" class="danger">Confirmar venda</button></div></dialog><script id="v113-pre">window.REMOVE113=[4, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 22, 37, 40, 54, 67, 70, 71, 84, 86, 88, 91, 92, 93, 94, 95, 97, 98, 99, 101];</script>
+<div class="controls"><button id="save">Salvar agora</button><button id="export">Exportar progresso</button><button id="import">Importar progresso</button><button id="reset">Novo jogo</button></div><input id="file" type="file" accept="application/json,.json" class="hidden"><p class="notice" id="saveStatus"></p><p class="muted">Salvamento local automático quando permitido pelo navegador. Não há ganhos offline: as recompensas são obtidas exclusivamente em tentativas da torre. Exporte seu progresso para garantir uma cópia.</p><p class="muted">Universo Astralitas · 48 campeões inspirados na mitologia grega. Retratos fornecidos pelo criador e incorporados ao arquivo. Protótipo local; pagamentos e PvP online ainda indisponíveis.</p></section><footer>Universo Astralitas · protótipo local • versão 1.15 • 1.000 andares + torre infinita</footer></main><dialog id="startDialog" class="welcomeDialog"><div class="welcomeHero" role="img" aria-label="COSMO TOWER 500F — A Luta dos Deuses"><div class="welcomeHeroBox"><small>✦ IDLE RPG</small><strong>COSMO TOWER 500F</strong><div class="muted">Entre no Santuário, cadastre seu perfil e escolha o seu cavaleiro principal.</div></div></div><div class="welcomeBody"><div class="musicQuick"><span>Trilha sonora original</span><button id="welcomeMusic" type="button">♫ Ativar música</button></div><div class="onSteps" aria-label="Etapas"><span id="stepDot1" class="active">1. Seu perfil</span><span id="stepDot2" hidden>2. Nome</span><span id="stepDot3">2. Campeão inicial</span></div><div id="step1" class="stepPane"><div class="entryEyebrow52">A SUA LENDA COMEÇA AQUI</div><h2>Entre no Santuário</h2><div id="resumeProfile" class="profileResume" hidden><div id="resumeName"></div><button id="resumeGame" class="primary" type="button">CONTINUAR JORNADA</button><button id="newJourney53" type="button">CRIAR NOVA JORNADA</button><button id="exportJourney53" type="button" class="secondary53">Exportar progresso atual</button></div><div id="newProfile52"><p class="muted">Escolha seu nome e comece sua jornada. Vincular o Google é opcional.</p><label for="welcomeName">Nome do jogador</label><input id="welcomeName" type="text" maxlength="22" placeholder="Seu nome de guerreiro" autocomplete="nickname"><div id="welcomeNameStatus" class="welcomeStatus" role="status"></div><button id="welcomeGuestContinue" class="primary entryStart52" type="button">✦ INICIAR JORNADA</button><div class="entryRule52"><span>ou vincule sua conta</span></div><button id="welcomeGoogleContinue" type="button" class="google52"><span class="googleG52">G</span> Vincular Google <small>+100 ouro</small></button><p class="muted entryHint52">Você poderá vincular mais tarde em Opções.</p><details class="email52"><summary>Prefiro cadastrar um e-mail local</summary><label for="welcomeEmail">E-mail</label><input id="welcomeEmail" type="email" placeholder="voce@exemplo.com" autocomplete="email"><button id="welcomeEmailContinue" type="button">Continuar com e-mail</button></details></div><input id="welcomeLoginMode" type="hidden"><div id="welcomeStatus" class="welcomeStatus" role="status"></div></div><div id="step2" class="stepPane hiddenStep"><input id="welcomeShownEmail" type="hidden"><button id="welcomeBack1" hidden>Voltar</button><button id="welcomeNameContinue" hidden>Continuar</button></div><div id="step3" class="stepPane hiddenStep"><div class="entryEyebrow52">SEU PRIMEIRO CAMPEÃO</div><h2>Escolha seu destino</h2><p class="muted">Cinco campeões sorteados, cinco maneiras de começar. Escolha um para sua formação.</p><div class="starterGrid" id="choices"></div><div id="welcomeChoiceStatus" class="welcomeStatus"></div><button id="entryBack52" type="button">← Voltar ao perfil</button></div></div></dialog><dialog id="detail" class="detailDialog"><button id="closeDetailTop" class="dialogCloseX" aria-label="Fechar">✕</button><div id="detailBody"></div><button id="closeDetail" style="margin-top:12px;width:100%">Fechar</button></dialog><dialog id="chestReveal" aria-labelledby="revealTitle"><header class="revealHeader"><small>✦ COSMO TOWER · INVOCAÇÃO ✦</small><h2 id="revealTitle">Baú de invocação</h2><p id="revealSubtitle"></p><button id="revealClose" type="button" class="revealX" aria-label="Fechar">×</button></header><div id="revealStage" class="revealStage"><div id="revealChestArt"></div><p>Revelando as recompensas…</p><button id="revealSkip" type="button">Revelar agora</button></div><section id="revealContent" hidden><p id="revealSummary" role="status"></p><div id="revealCards" class="revealCards"></div><div class="revealFooter"><p id="revealQuestion">Deseja abrir outro baú?</p><div id="revealWallet"></div><div class="revealActions"><button id="revealNo" type="button">Não, voltar à loja</button><button id="revealAgain" type="button" class="primary">Abrir novamente</button></div><small id="revealHint"></small></div></section></dialog><div id="rewardToast35" role="status" aria-live="polite" hidden></div><dialog id="rewardModal35"><div id="rewardBody35"></div><button id="rewardOK35" class="primary" style="width:100%">Continuar</button></dialog><dialog id="sellHero35"><div id="sellBody35"></div><div class="controls"><button id="sellCancel35">Cancelar</button><button id="sellConfirm35" class="danger">Confirmar venda</button></div></dialog><script id="v113-pre">window.REMOVE113=[4, 8, 9, 10, 11, 15, 16, 17, 18, 22, 37, 40, 54, 67, 70, 71, 86, 88, 91, 92, 93, 95, 97, 98, 99, 101];</script>
 <script id="v109-pre">window.scaleMonth109=function(list){try{let raw=localStorage.getItem('cosmoTower500F')||'';let x=null;for(const k of Object.keys(localStorage)){if(/cosmo/i.test(k)&&!/backup/i.test(k)){try{let v=JSON.parse(localStorage.getItem(k));if(v&&v.heroes&&Number.isFinite(v.accountTotal)){x=v;break}}catch(e){}}}let tot=x?x.accountTotal:0,l=1;let need=q=>100+40*(q-1);while(l<1000&&tot>=need(l)){tot-=need(l);l++}let g=Math.min(5,1+.04*(l-1)),gm=Math.min(5,1+.02*(l-1));return list.map(d=>{let y=[...d];y[3]=Math.round(y[3]*g);y[4]=Math.max(1,Math.round(y[4]*gm));y[5]=Math.round(y[5]*Math.sqrt(g));return y})}catch(e){return list}};</script>
 <script id="v100-gear">window.gearUpgrades100=function(){let team=(S.team||[]).filter(id=>S.heroes[id]).slice(0,typeof cap==='function'?cap():5).filter(id=>!(typeof battleHeroLocked==='function'&&battleHeroLocked(id)&&!inRun)&&!(typeof expeditionBusy38==='function'&&expeditionBusy38(id)));let inv={};for(const i of (S.items||[]))if(i.owner==null){let r=gearRank(i);if(!(inv[i.slot]>=r))inv[i.slot]=r}let up=[];for(const id of team)for(const sl of slots){let cur=(S.items||[]).filter(i=>i.owner===id&&i.slot===sl).reduce((m,i)=>Math.max(m,gearRank(i)),0);if((inv[sl]||0)>cur)up.push([id,sl,cur,inv[sl]])}return up};</script>
 <script src="https://accounts.google.com/gsi/client" async defer></script><script>
@@ -825,7 +825,7 @@ function refreshLineup35(mode){save();refreshIdle();if(tab==='cards')renderColle
 const previousCollection35=renderCollection;renderCollection=function(){previousCollection35();let el=$('collection');for(let card of [...el.querySelectorAll('.collect')]){let id=Number(card.querySelector('[data-detail]')?.dataset.detail);if(!S.heroes[id])continue;if(S.team.includes(id)){card.remove();continue}let b=document.createElement('button');b.className='sellChampion35';b.textContent='Vender campeão';b.dataset.sellHero35=id;b.disabled=battleHeroLocked(id)||Object.keys(S.heroes).length<=1;card.append(b)}lineupPanel35('tower','formationTeam35');if(!el.querySelector('.collect')){let elText=document.createElement('p');elText.className='muted';elText.textContent='Todos os campeões disponíveis estão na formação.';el.append(elText)}};
 const previousPvp35=renderPvp;renderPvp=function(){previousPvp35();$('pvpSelect').hidden=true;lineupPanel35('pvp','pvpFormation35')};
 const previousSwitch35=switchTab;switchTab=function(t){if(t==='global'&&inRun&&!globalActive35)return;previousSwitch35(t);let b=document.querySelector('#nav [data-tab="global"]');if(b)b.disabled=inRun&&!globalActive35;if(tab==='tower'){$('towerFormation35').hidden=true;}if(tab==='global')renderGlobal35();if(tab==='cards')lineupPanel35('tower','formationTeam35')};
-const previousUpdate35=update;update=function(){previousUpdate35();$('towerFormation35').hidden=true;let nav=document.querySelector('#nav [data-tab="global"]');if(nav)nav.disabled=inRun&&!globalActive35;if(globalActive35){let left=Math.max(0,Math.ceil((globalEnd35-performance.now())/1000));$('globalFightHud35').hidden=false;$('globalFightHud35').innerHTML=`<strong>CHEFE GLOBAL · ${left}s</strong><br>Dano: ${fmt(globalDamage35)}<br>Melhor de hoje: ${fmt(globalState35(false).best)}<br>O chefe não pode morrer.`;$('play').disabled=true;$('play').textContent='Ataque em andamento';$('speed').disabled=true;$('giveup').disabled=true;$('floor').textContent=`${left}s · ${fmt(globalDamage35)} dano`;$('zone').textContent='Chefe Global · simulação';$('floorStage').hidden=true;$('floorStageText').textContent='A entrada termina após 60 segundos';$('boss').textContent='◆ CHEFE IMORTAL ◆';$('bossAbility').textContent=raidBoss53(globalDay35).skill;$('goal').textContent='Raide diário · dano acumulado';$('progress').style.width=Math.max(0,100*left/60)+'%';$('teamInfo').textContent=`Equipe ${allies.filter(x=>x.hp>0).length}/${allies.length} vivos · ${fmt(globalDamage35)} dano`;$('climbStatus').textContent='Duração real de 60 segundos · sem bônus de setores ou ouro por golpe.';let e=$('e0');if(e)e.querySelector('.hpnum').textContent='∞ Imortal';$('battleMonitorTitle').textContent='Chefe Global em andamento';$('battleMonitorText').textContent=`${left}s restantes · ${fmt(globalDamage35)} de dano`;if(tab==='global')paintGlobalControls35()}else $('globalFightHud35').hidden=true};
+const previousUpdate35=update;update=function(){previousUpdate35();$('towerFormation35').hidden=true;let nav=document.querySelector('#nav [data-tab="global"]');if(nav)nav.disabled=inRun&&!globalActive35;if(globalActive35){let left=Math.max(0,Math.ceil((globalEnd35-performance.now())/1000));$('globalFightHud35').hidden=false;$('globalFightHud35').innerHTML=`<strong>CHEFE GLOBAL · Rodada ${window.__gTurn114||0}</strong><br>Dano: ${fmt(globalDamage35)}<br>Melhor de hoje: ${fmt(globalState35(false).best)}<br>O chefe não pode morrer.`;$('play').disabled=true;$('play').textContent='Ataque em andamento';$('speed').disabled=true;$('giveup').disabled=false;$('floor').textContent=`Rodada ${window.__gTurn114||0} · ${fmt(globalDamage35)} dano`;$('zone').textContent='Chefe Global · simulação';$('floorStage').hidden=true;$('floorStageText').textContent='A entrada termina quando sua equipe cair';$('boss').textContent='◆ CHEFE IMORTAL ◆';$('bossAbility').textContent=raidBoss53(globalDay35).skill;$('goal').textContent='Raide diário · dano acumulado';$('progress').style.width=Math.max(0,100*left/60)+'%';$('teamInfo').textContent=`Equipe ${allies.filter(x=>x.hp>0).length}/${allies.length} vivos · ${fmt(globalDamage35)} dano`;$('climbStatus').textContent='Duração real de 60 segundos · sem bônus de setores ou ouro por golpe.';let e=$('e0');if(e)e.querySelector('.hpnum').textContent='∞ Imortal';$('battleMonitorTitle').textContent='Chefe Global em andamento';$('battleMonitorText').textContent=`Rodada ${window.__gTurn114||0} · ${fmt(globalDamage35)} de dano`;if(tab==='global')paintGlobalControls35()}else $('globalFightHud35').hidden=true};
 // Card sales: modest gold value based on rarity, no profit loop; final champion and active participants protected.
 let pendingSale35=null;
 function heroSellPrice35(id){return [0,50,100,180,300,500,750,1000][S.heroes[id].rank]}
@@ -973,7 +973,7 @@ function chooseBlessing40(key){let f=blessingPending40;if(f===null||!inRun||pvpA
 
 function activeMode38(){return globalActive35?'global':pvpActive?'pvp':'tower'}
 function expeditionBusy38(id){return state38().exps.some(e=>Array.isArray(e.ids)&&e.ids.includes(+id))}
-function elemental53(element){let defs={Fogo:[3,'atk',.065],Raio:[3,'spd',.04],Água:[2,'heal',.055],Gelo:[3,'def',.065],Pedra:[2,'def',.035],Terra:[2,'def',.035],Vento:[2,'spd',.022],Luz:[3,'hp',.07],Sombra:[3,'atk',.065],Cosmo:[3,'atk',.065],Natureza:[2,'hp',.04],Metal:[2,'def',.035],Som:[2,'heal',.055],Veneno:[2,'atk',.035]};return defs[element]||[2,'atk',.03]}
+function elemental53(element){let defs={Fogo:[3,'atk',.065],Raio:[3,'spd',.04],Água:[2,'heal',.055],Gelo:[3,'def',.065],Pedra:[2,'def',.035],Terra:[2,'def',.035],Vento:[2,'spd',.022],Luz:[3,'hp',.07],Sombra:[3,'atk',.065],Cosmo:[3,'atk',.065],Natureza:[2,'hp',.04],Metal:[2,'def',.035],Som:[2,'heal',.055],Veneno:[2,'atk',.035],Planta:[2,'hp',.045],Escuridão:[3,'atk',.065]};return defs[element]||[2,'atk',.03]}
 function buffText53(rule){return '+'+Math.round(rule[2]*1000)/10+'% '+({atk:'ATQ',hp:'PV',def:'DEF',spd:'VEL',heal:'cura'}[rule[1]])}
 function resonance38(ids){let ds=ids.map(id=>D[id]).filter(Boolean),el={},roles={},groups={};for(let d of ds){el[d.element]=(el[d.element]||0)+1;roles[d.role]=(roles[d.role]||0)+1;groups[d.group]=(groups[d.group]||0)+1}let best=Object.entries(el).filter(([e,n])=>n>=elemental53(e)[0]).sort((a,b)=>elemental53(b[0])[0]-elemental53(a[0])[0]||elemental53(b[0])[2]-elemental53(a[0])[2]||a[0].localeCompare(b[0]))[0],g=Object.entries(groups).sort((a,b)=>b[1]-a[1])[0];let x={atk:0,hp:0,def:0,spd:0,heal:0,notes:[]};if(best){let rule=elemental53(best[0]);x[rule[1]]+=rule[2];x.notes.push(best[0]+' ×'+best[1]+' · '+buffText53(rule))}if(g?.[1]>=3){x.hp+=.05;x.notes.push(g[0]+' ×'+g[1]+' · +5% PV')}if(Object.keys(roles).length>=3){x.def+=.05;x.notes.push('3 funções distintas · +5% DEF')}if(ds.some(d=>d.role==='heal')&&ds.some(d=>d.role==='tank')){x.heal+=.08;x.notes.push('Suporte + defensor · +8% cura')}return x}
 function relicBonuses38(){let x={atk:0,hp:0,def:0,spd:0,heal:0};for(let [id,n,s,k,v] of relic38)x[k]+=Math.min(10,Math.max(0,Math.floor(Number(state38().relics[id])||0)))*v;return x}
@@ -1101,7 +1101,7 @@ showBlessStatus40();
 <script id="v41-script">
 (()=>{
   const $id = id => document.getElementById(id);
-  const version='1.13';
+  const version='1.15';
   document.title='Cosmo Tower 500F — Ascensão Celestial | '+version;
   const headP=document.querySelector('header p');
   if(headP) headP.textContent='A Luta dos Deuses · Versão '+version;
@@ -1280,7 +1280,7 @@ function botDefense45(bot){let pool=roster(), pts=bot.points, level=Math.min(100
  return result;
 }
 (function(){
- document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+ document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
  const modal=document.createElement('dialog');modal.id='opponents45';modal.className='modal45';modal.innerHTML='<div class="modalHead45"><h2>Escolha seu adversário</h2><button data-close45="opponents45" aria-label="Fechar">×</button></div><div id="opBody45"></div>';document.body.append(modal);
  const res=document.createElement('dialog');res.id='resonance45';res.className='modal45';res.innerHTML='<div class="modalHead45"><h2>Ressonância Astral</h2><button data-close45="resonance45" aria-label="Fechar">×</button></div><div id="resBody45"></div>';document.body.append(res);
  function canFight(){return !inRun&&S.best>=50&&S.pvpTeam.length===5&&S.pvpTeam.every(id=>S.heroes[id])&&!blockedTeam38('pvp')}
@@ -1358,7 +1358,7 @@ function enterProfile52(method){let n=$('welcomeName').value.trim(),status=$('we
 $('welcomeGuestContinue').onclick=()=>enterProfile52('guest');$('welcomeEmailContinue').onclick=()=>enterProfile52('email');$('welcomeNameContinue').onclick=()=>enterProfile52('guest');$('entryBack52').onclick=()=>setStartStep(1);$('welcomeName').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();enterProfile52('guest')}});
 $('welcomeGoogleContinue').onclick=()=>{let n=$('welcomeName').value.trim();if(n.length>=3)S.profile.name=n;googleConnect(true)};
 if($('startDialog').open)setStartStep(1);if(tab==='home')renderHome();
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 </script>
 
 <style id="v53-style">
@@ -1482,7 +1482,7 @@ const diff56=towerDifficulty;towerDifficulty=function(f,n){let d=diff56(f,n),r=M
 const recovery56=recoveryRate;recoveryRate=function(f){let r=recovery56(f);return f<=100?Math.min(.09,r+.0025*(1-f/100)):r};
 
 refreshTitles38();if(tab==='temple38')renderTemple38();if(tab==='titles38')renderTitles38();if(tab==='home')renderHome();glow54();save();
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 </script>
 
@@ -2239,8 +2239,8 @@ body[data-effects38="off"] .rankportrait.evo63::after{animation:none!important;d
   const sp=$('speed');
   if(sp)sp.onclick=()=>{let allowed=availableSpeeds();if(allowed.length<2)return;let cur=globalActive35?spd64():S.speed;let next=allowed[(allowed.indexOf(cur)+1)%allowed.length];S.speed=next;S.speedPreference46=next;update();save()};
   const upd64=update;
-  update=function(){let r=upd64.apply(this,arguments);try{let b=$('speed');if(b&&(globalActive35||pvpActive)){let av=availableSpeeds();b.disabled=av.length<2;if(globalActive35){S.speed=spd64();b.textContent=S.speed+'×';b.title='Chefe Global: 60 segundos de combate; a velocidade acelera o tempo sem mudar o dano máximo.'}}
-    if(globalActive35&&gStart64===globalStart35){let left=Math.max(0,Math.ceil((globalEnd35-gVirt64)/1000)),hud=$('globalFightHud35');if(hud){let st=hud.querySelector('strong');if(st)st.textContent='CHEFE GLOBAL · '+left+'s'+(S.speed>1?' · '+S.speed+'×':'')}let fl=$('floor');if(fl)fl.textContent=`${left}s · ${fmt(globalDamage35)} dano`;let pr=$('progress');if(pr)pr.style.width=Math.max(0,100*left/60)+'%';let cs=$('climbStatus');if(cs)cs.textContent='60 segundos de combate · a velocidade acelera o tempo, o dano máximo é o mesmo em qualquer velocidade.';let mt=$('battleMonitorText');if(mt)mt.textContent=`${left}s restantes · ${fmt(globalDamage35)} de dano`}}catch(e){}return r};
+  update=function(){let r=upd64.apply(this,arguments);try{let b=$('speed');if(b&&(globalActive35||pvpActive)){let av=availableSpeeds();b.disabled=av.length<2;if(globalActive35){S.speed=spd64();b.textContent=S.speed+'×';b.title='Chefe Global: Sem limite de tempo · o chefe fica mais forte a cada rodada.'}}
+    if(globalActive35&&gStart64===globalStart35){let left=Math.max(0,Math.ceil((globalEnd35-gVirt64)/1000)),hud=$('globalFightHud35');if(hud){let st=hud.querySelector('strong');if(st)st.textContent='CHEFE GLOBAL · '+'Rodada '+(window.__gTurn114||0)+(S.speed>1?' · '+S.speed+'×':'')}let fl=$('floor');if(fl)fl.textContent=`Rodada ${window.__gTurn114||0} · ${fmt(globalDamage35)} dano`;let pr=$('progress');if(pr)pr.style.width=Math.max(0,100*left/60)+'%';let cs=$('climbStatus');if(cs)cs.textContent='Sem limite de tempo · o chefe fica mais forte a cada rodada.';let mt=$('battleMonitorText');if(mt)mt.textContent=`Rodada ${window.__gTurn114||0} · ${fmt(globalDamage35)} de dano`}}catch(e){}return r};
 
   // ---------- Distribuição automática de pontos para todos ----------
   function autoAll64(){let order=['atk','hp','def','atk','spd'],heroes=0,pts=0;for(const [id,h] of Object.entries(S.heroes)){if(!(h.points>0)||battleHeroLocked(+id))continue;heroes++;h.bonus=h.bonus||{atk:0,hp:0,def:0,spd:0};while(h.points>0){h.bonus[order[h.points%5]]=(h.bonus[order[h.points%5]]||0)+1;h.points--;pts++}}if(!pts)return 0;try{refreshIdle()}catch(e){}save();update();if(tab==='cards')try{renderCollection()}catch(e){}if(tab==='home')try{renderHome()}catch(e){}reward35('Pontos distribuídos',[plainReward35(pts+' pontos','Distribuídos em '+heroes+' campeão(ões)'),plainReward35('Mesma regra do "Distribuir auto"','Ataque, vida, defesa e velocidade')]);return pts}
@@ -2470,7 +2470,7 @@ footer{text-align:center;padding:16px 8px;color:#9aa6bb}
 // v0.67 · Conta na nuvem conectada ao projeto Supabase (URL e chave pública em CLOUD66, bloco v66-commercial).
 // Login com Google fica oculto até o provedor ser configurado. O progresso do modo desenvolvedor nunca vai para a nuvem.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   function note67(){let box=document.getElementById('cloud66');if(!box)return;let on=box.querySelector('.cloud66On');if(!on||on.querySelector('.cloud67Note'))return;let p=document.createElement('p');p.className='tiny cloud67Note';p.innerHTML='Conta de convidado: fica ligada a este navegador. Se os dados do navegador forem apagados, ela se perde. Em breve será possível vincular uma conta Google para recuperar o progresso em qualquer aparelho.';on.append(p);let dev=document.createElement('p');dev.className='tiny cloud67Dev';dev.textContent='Modo desenvolvedor ativo: salvar e carregar da nuvem ficam bloqueados para proteger o progresso real.';on.append(dev)}
   note67();
   const sw67=switchTab;switchTab=function(t){let r=sw67.apply(this,arguments);if(t==='options')try{note67()}catch(e){}return r};
@@ -2488,7 +2488,7 @@ body.dev66 .cloud67Dev{display:block}
 // Regra: a cópia automática só envia se este aparelho já estiver sincronizado com a conta conectada (chave local cosmo68-cloud-owner).
 // Ao entrar numa conta que já tem progresso diferente na nuvem, o jogo pergunta antes de qualquer troca.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const OWN='cosmo68-cloud-owner';
   const own=()=>{try{return localStorage.getItem(OWN)||''}catch(e){return ''}};
   window.cloudCanAuto68=id=>!!id&&own()===id;
@@ -2574,7 +2574,7 @@ body.dev66 .cloud67Dev{display:block}
 <script id="v69-gift">
 // v0.69 · O cartão "Presente de boas-vindas" some do menu principal depois que a recompensa Google de 100 ouro foi recebida.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   function gift69(){let claimed=S?.profile?.googleBonusClaimed===true;document.querySelectorAll('.googleOffer').forEach(el=>el.hidden=claimed)}
   const rgr69=renderGoogleReward;renderGoogleReward=function(){let r=rgr69.apply(this,arguments);try{gift69()}catch(e){}return r};
   const rh69=renderHome;renderHome=function(){let r=rh69.apply(this,arguments);try{gift69()}catch(e){}return r};
@@ -2589,7 +2589,7 @@ body.dev66 .cloud67Dev{display:block}
 // v0.70 · "Vincular Google" do Presente de boas-vindas abre o Google direto (sem ir para Opções).
 // Se a conta Google já estiver conectada (ex.: nova jornada no mesmo navegador), entrega a recompensa na hora e o cartão some.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const gc68=googleConnect;
   googleConnect=async function(fromWelcome){
     let u=null;try{u=window.cloud66API?.user()}catch(e){}
@@ -2606,7 +2606,7 @@ body.dev66 .cloud67Dev{display:block}
 // Limites por dia (dailyDay): Torre 5 · check-in 1 · Tesouro 2 · expedições 3 · missões diárias 4.
 // VIP (Sem Anúncios, Bronze, Prata, Ouro): dobra automático com os mesmos limites. Estado no save: S.ads71 = {day, used:{...}}.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const LIM={tower:5,checkin:1,treasure:2,exp:3,mission:4,week:2,month:2,achieve:3,global:1,arena:3};
   const AD_MS=()=>devMode?2000:15000;
   const num=v=>Math.max(0,Math.floor(Number(v)||0));
@@ -2688,7 +2688,7 @@ body.dev66 .cloud67Dev{display:block}
 //  - O catálogo da Loja vendia Lendário/Divino/Celestial por 400/1.000/2.500 Gemas sem limite: alinhado aos valores acima.
 //  - Velocidades 3×–5×: o botão antigo "com gemas" (sem preço desde a v0.66, não fazia nada) foi removido.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const ask=(t,h,ok,tone,icon)=>typeof confirm62==='function'?confirm62(t,h,ok,tone,icon):Promise.resolve(window.confirm(t));
   const dia=()=>typeof dia65==='function'?dia65():(S.diamond=Math.max(0,+S.diamond||0));
@@ -2742,7 +2742,7 @@ body.dev66 .cloud67Dev{display:block}
 //  2) "Sair" de uma conta de convidado não avisava que ela não pode ser recuperada. Agora pede confirmação.
 //  3) A página inicial do servidor (index.html) sabe para qual versão voltar depois do login Google.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   try{localStorage.setItem('cosmo-return-page',location.pathname)}catch(e){}
   const OWN='cosmo68-cloud-owner';
   const api=()=>window.cloud66API;
@@ -2770,7 +2770,7 @@ body.dev66 .cloud67Dev{display:block}
 // imagem de perfil (foto do dispositivo ou campeão liberado), coluna direita reorganizada e layout centralizado.
 // Campos novos no perfil (dentro do save): profile.avatar74 (imagem reduzida, data URL) e profile.avatarHero74 (ID do campeão).
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const okData=v=>typeof v==='string'&&/^data:image\/(webp|jpeg|png);base64,/.test(v)&&v.length<400000;
   // ---------- Faixa do perfil ----------
@@ -2866,7 +2866,7 @@ main > header{text-align:center}
 // v0.75 · Aba Campeões: galeria com TODOS os campeões do jogo em miniatura.
 // Aceso = já liberado · apagado = ainda não liberado. "Comprar" leva direto ao campeão no catálogo da Loja e VIP.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const GROUPS=['Panteão','Nações','Campeões do Zodíaco','Astralitas'];
   let filter75='all';
@@ -2965,7 +2965,7 @@ main > header{text-align:center}
 // raio cai do céu, labareda sobe, água espirra, gelo brota do chão, pedras despencam, lâminas cortam, pilar de luz, etc.
 // Respeita Opções → Efeitos visuais (Completos / Reduzidos / Desativados) e limita a quantidade de peças na tela.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const KIND={'Raio':'bolt','Fogo':'fire','Lava':'lava','Sol':'sun','Água':'water','Gelo':'ice','Vento':'wind','Pedra':'rock','Terra':'rock','Areia':'sand','Metal':'metal','Luz':'light','Sombra':'shadow','Trevas':'shadow','Cosmo':'cosmic','Cosmos':'cosmic','Arcano':'arcane','Natureza':'nature','Veneno':'poison','Som':'sound','Tempo':'time'};
   const COL={bolt:'#9fdcff',fire:'#ff7a2e',lava:'#ff5a1f',sun:'#ffd45c',water:'#4fb8ff',ice:'#c4f4ff',wind:'#b8ffd9',rock:'#c9a26b',sand:'#e8c27a',metal:'#dfe8f3',light:'#fff2b0',shadow:'#a46bff',cosmic:'#c79bff',arcane:'#ff8cf0',nature:'#7fe08a',poison:'#9cff57',sound:'#ffc8f0',time:'#ffe08a',heal:'#9dffb8',hit:'#ffd9a0'};
   const kindOf=d=>{let el=String(d?.element||'').split('/');let k=KIND[el[0]]||KIND[el[1]]||'hit';return {k,k2:KIND[el[1]]||null}};
@@ -3089,8 +3089,8 @@ body[data-effects38="off"] .vx76{display:none!important}
 // Efeitos usam os estados que o combate já tinha (escudo, maldição/cura reduzida, cegueira, lentidão, dano contínuo, paralisia).
 // Efeito do elemento vale para campeões e vilões (equilíbrio); assinaturas só para os 66 campeões jogáveis.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
-  const EL={'Raio':'raio','Fogo':'fogo','Lava':'fogo','Sol':'fogo','Água':'agua','Gelo':'gelo','Vento':'vento','Pedra':'pedra','Terra':'pedra','Areia':'pedra','Metal':'metal','Luz':'luz','Sombra':'sombra','Trevas':'sombra','Cosmo':'cosmo','Cosmos':'cosmo','Arcano':'cosmo','Natureza':'natureza','Veneno':'veneno','Som':'som','Tempo':'tempo'};
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
+  const EL={'Raio':'raio','Fogo':'fogo','Lava':'fogo','Sol':'fogo','Água':'agua','Gelo':'gelo','Vento':'vento','Pedra':'pedra','Terra':'pedra','Areia':'pedra','Metal':'metal','Luz':'luz','Sombra':'sombra','Trevas':'sombra','Cosmo':'cosmo','Cosmos':'cosmo','Arcano':'cosmo','Natureza':'natureza','Planta':'natureza','Escuridão':'sombra','Veneno':'veneno','Som':'som','Tempo':'tempo'};
   const ELINFO={raio:['⚡','Paralisia','O especial paralisa o alvo por 0,6 s. O ataque básico tem 8% de chance de paralisar por 0,3 s.'],fogo:['🔥','Queimadura','O especial queima o alvo por 2,5 s (dano contínuo).'],agua:['💧','Afogamento','O especial reduz a cura recebida pelo alvo por 4 s.'],gelo:['❄','Congelamento','O especial deixa o alvo 28% mais lento por 3 s.'],vento:['🌪','Rajada','O especial acelera o próximo ataque do campeão.'],pedra:['🪨','Couraça','O especial dá escudo ao próprio campeão por 1,5 s.'],metal:['⚔','Perfuração','O especial causa +15% de dano, ignorando a defesa.'],luz:['✨','Cegueira','O especial cega o alvo por 3 s (−18% de ATQ).'],sombra:['🌑','Dreno','O especial recupera 20% do dano como vida (6% no básico).'],cosmo:['✦','Canalizar','O especial dá +20 de Cosmo ao aliado com menos energia.'],natureza:['🍃','Brotar','O especial cura 6% da vida do aliado mais ferido.'],veneno:['☠','Veneno','O especial envenena o alvo por 4 s (dano contínuo).'],som:['🎵','Dissonância','O especial tira 20 de Cosmo do alvo, atrasando o especial dele.'],tempo:['⌛','Aceleração','O especial devolve 15 de Cosmo ao próprio campeão.']};
   const SIG=[['Fúria','+15% de dano quando o campeão está abaixo de 40% de vida.'],['Caçador de chefes','+12% de dano contra chefes.'],['Vampírico','Recupera 5% do dano causado como vida.'],['Executor','+20% de dano em alvos abaixo de 30% de vida.'],['Concentração','+6 de Cosmo extra a cada ataque básico.'],['Golpe duplo','12% de chance de um golpe extra com 35% do dano.'],['Muralha','10% de chance de ganhar escudo por 1 s ao atacar.'],['Inspiração','No especial, todos os aliados ganham +8 de Cosmo.'],['Perfurante','+8% de dano em todos os ataques.'],['Agilidade','10% de chance de acelerar o próximo ataque.'],['Protetor','No especial, o aliado mais ferido ganha escudo por 1,5 s.'],['Desestabilizar','No especial, o alvo perde 10 de Cosmo.']];
   const elOf=d=>{let p=String(d?.element||'').split('/');return EL[p[0]]||EL[p[1]]||null};
@@ -3188,7 +3188,7 @@ body[data-effects38="off"] .vx76{display:none!important}
 // v0.78 · Revisão comercial: textos antigos corrigidos em todos os menus, Termos/Privacidade/Créditos completos
 // (licenças de terceiros, ECA Digital, LGPD, assinaturas, anúncios) e exclusão dos dados da nuvem pelo próprio jogador.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const SUPPORT='suporte.cosmotower@gmail.com';
   // ---------- 1) Textos antigos ----------
   const REP=[
@@ -3268,7 +3268,7 @@ body[data-effects38="off"] .vx76{display:none!important}
 // No aparelho: na hora. Na nuvem: intervalo mínimo de 30 s entre envios. Nunca no modo desenvolvedor.
 // Indicador discreto no perfil: "💾 Salvo às HH:MM" (aparelho) ou "☁ Salvo na nuvem às HH:MM".
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const hhmm=()=>new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
   function badge79(){let host=document.querySelector('#profile74 .profile74Main');if(!host)return null;let el=document.getElementById('save79');if(!el){el=document.createElement('small');el.id='save79';el.className='save79';host.append(el)}return el}
   function mark79(kind){let el=badge79();if(!el)return;el.textContent=kind==='nuvem'?'☁ Salvo na nuvem às '+hhmm():'💾 Salvo neste aparelho às '+hhmm();el.classList.remove('pulse79');void el.offsetWidth;el.classList.add('pulse79')}
@@ -3277,7 +3277,7 @@ body[data-effects38="off"] .vx76{display:none!important}
   let lastUp=0,timer=0;
   // Envio à nuvem também durante a subida: ao carregar, o jogo sempre volta ao andar 1 com o progresso (ouro, XP, recorde) preservado.
   async function cloudNow(){let api=window.cloud66API;if(!api||!api.user()||devMode)return false;let before=S.cloudStamp66,prev=inRun,p;try{inRun=false;p=api.upload(true)}finally{inRun=prev}try{await p}catch(e){return false}if(S.cloudStamp66&&S.cloudStamp66!==before){lastUp=Date.now();return true}return false}
-  function saveSoon79(delay=2500){clearTimeout(timer);let wait=Math.max(delay,30000-(Date.now()-lastUp));timer=setTimeout(async()=>{if(typeof devMode!=='undefined'&&devMode)return;if(!localSave())return;let ok=await cloudNow();mark79(ok?'nuvem':'local')},wait);if(localSave())mark79('local')}
+  function saveSoon79(delay=2500){clearTimeout(timer);let wait=Math.max(delay,((typeof inRun!=='undefined'&&inRun)?180000:30000)-(Date.now()-lastUp));timer=setTimeout(async()=>{if(typeof devMode!=='undefined'&&devMode)return;if(!localSave())return;let ok=await cloudNow();mark79(ok?'nuvem':'local')},wait);if(localSave())mark79('local')}
   window.saveSoon79=saveSoon79;
   // Recompensas e conquistas (todas passam pela janela/aviso de recompensa)
   const rw79=reward35;reward35=function(){let r=rw79.apply(this,arguments);try{saveSoon79()}catch(e){}return r};
@@ -3309,7 +3309,7 @@ body[data-effects38="off"] .vx76{display:none!important}
 // v0.80 · Distribuir pontos automaticamente: antes de confirmar, mostra a foto de cada campeão com pontos livres,
 // quantos pontos tem e como ficarão os atributos (mesma regra do "Distribuir auto"). Dá para desmarcar campeões.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const ORDER=['atk','hp','def','atk','spd'],LBL={atk:'ATQ',hp:'PV',def:'DEF',spd:'VEL'};
   const free=()=>Object.entries(S.heroes).map(([id,h])=>[+id,h]).filter(([id,h])=>h.points>0&&D[id]&&!(typeof battleHeroLocked==='function'&&battleHeroLocked(id))).sort((a,b)=>b[1].points-a[1].points||b[1].rank-a[1].rank);
@@ -3354,7 +3354,7 @@ body[data-effects38="off"] .vx76{display:none!important}
 <script id="v81-legal">
 // v0.81 · Documentos revisados (checklist CDC, LGPD, ECA Digital, Marco Civil e regras das lojas). Modelos para revisão jurídica.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const SUPPORT='suporte.cosmotower@gmail.com',CONTROLLER='[nome ou razão social e CPF/CNPJ do responsável]',BRAND='COSMO TOWER',UPD='21/11/2026';
   const ver=()=>(document.title.match(/\| ([\d.]+)/)||[])[1]||'';
   const L={
@@ -3406,7 +3406,7 @@ body[data-effects38="off"] .vx76{display:none!important}
 // v0.82 · Versão para jogadores (pedido do criador): modo desenvolvedor REMOVIDO da interface e bloqueado.
 // O painel, o aviso no topo, o campo técnico da nuvem e todos os botões de teste ficam ocultos e sem efeito.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const t=document.getElementById('devToggle');if(t){t.onclick=null;t.disabled=true}
   document.addEventListener('click',e=>{if(e.target.closest('#devPanel,[data-dev],[data-dev65],[data-dev71],#cloud66SaveCfg')){e.stopImmediatePropagation();e.preventDefault()}},true);
   try{if(typeof devMode!=='undefined'&&devMode){location.reload()}}catch(e){}
@@ -3427,7 +3427,7 @@ body[data-effects38="off"] .vx76{display:none!important}
 //  - Tela ligada durante a subida (Wake Lock) e batalha centralizada.
 // Estado no save: S.tut83 = {seen:{andar:true}, intro, freeChest, gear}. Jogadores antigos recebem tudo liberado sem tutoriais repetidos.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const LOCK={checkin:5,items:10,titles38:120,summon:25,shop38:25,exp38:30,pvp:50,temple38:200,global:100};
   const FLOORS=[5,10,25,30,50,100,120,200];
@@ -3468,7 +3468,7 @@ body[data-effects38="off"] .vx76{display:none!important}
     50:{key:50,icon:'⚔',tag:'ANDAR 50 · LIBERADO',h:'Arena PvP 5 × 5',ok:'Ir para a Arena',action:go('pvp'),body:'<p>Monte uma equipe de <b>5 campeões</b> só para a Arena (ela é separada da equipe da Torre) e salve.</p><p>Toque em <b>Buscar oponente</b> e escolha entre 3 adversários perto dos seus pontos. Vencendo, você sobe de rank: Bronze, Prata, Ouro, Diamante, Mestre e Deuses. A mesma equipe defende você.</p>'},
     120:{key:120,icon:'🏅',tag:'ANDAR 120 · LIBERADO',h:'Títulos',ok:'Ver Títulos',action:go('titles38'),body:'<p>Conquiste <b>títulos</b> subindo a Torre, vencendo chefes e evoluindo campeões. Cada título equipado dá um bônus permanente.</p>'},
     200:{key:200,icon:'✧',tag:'ANDAR 200 · LIBERADO',h:'Templo Divino',ok:'Ver o Templo',action:go('temple38'),body:'<p><b>Relíquias:</b> use fragmentos míticos para aprimorá-las (até o nível 10). Os bônus valem para sempre, em todos os modos.</p><p><b>Bênçãos:</b> escolhidas na Torre, valem durante a tentativa.</p><p>As <b>sinergias</b> (Afinidade elemental, Ressonância Astral) ficam em <b>Campeões → Sinergias</b>, junto da montagem da equipe.</p>'},
-    100:{key:100,icon:'☄',tag:'ANDAR 100 · LIBERADO',h:'Chefe Global',ok:'Desafiar o chefe',action:go('global'),body:'<p>Todo dia um <b>Primordial</b> diferente. Você tem <b>5 entradas por dia</b>, de 60 segundos de combate cada, e o ranking conta o <b>maior dano</b> de uma entrada. Renova ao meio-dia (Brasília). Monte a equipe do Chefe Global (separada).</p><ul class="boss83"><li><b>Seg · Thanarok</b>: atinge todos e marca os mais feridos (leve cura e Suporte).</li><li><b>Ter · Ignathor</b>: queima 3 heróis e fica mais forte a cada especial (derrote rápido).</li><li><b>Qua · Abyssara</b>: prende os mais velozes e ganha escudo (Metal perfura).</li><li><b>Qui · Voltharion</b>: raio em cadeia que paralisa (vida alta ajuda).</li><li><b>Sex · Nyxalith</b>: reduz o ATQ e rouba Cosmo (energia: Cosmo e Tempo).</li><li><b>Sáb · Gaianor</b>: reduz defesa e deixa lento, com defesa muito alta (Metal e dano contínuo).</li><li><b>Dom · Aetherion</b>: desfaz escudos e fica mais forte aos 20 e 40 s (dano no início).</li></ul>'},
+    100:{key:100,icon:'☄',tag:'ANDAR 100 · LIBERADO',h:'Chefe Global',ok:'Desafiar o chefe',action:go('global'),body:'<p>Todo dia um <b>Primordial</b> diferente. Você tem <b>5 entradas por dia</b>, de sem limite de tempo (o chefe fica mais forte a cada rodada), e o ranking conta o <b>maior dano</b> de uma entrada. Renova ao meio-dia (Brasília). Monte a equipe do Chefe Global (separada).</p><ul class="boss83"><li><b>Seg · Thanarok</b>: atinge todos e marca os mais feridos (leve cura e Suporte).</li><li><b>Ter · Ignathor</b>: queima 3 heróis e fica mais forte a cada especial (derrote rápido).</li><li><b>Qua · Abyssara</b>: prende os mais velozes e ganha escudo (Metal perfura).</li><li><b>Qui · Voltharion</b>: raio em cadeia que paralisa (vida alta ajuda).</li><li><b>Sex · Nyxalith</b>: reduz o ATQ e rouba Cosmo (energia: Cosmo e Tempo).</li><li><b>Sáb · Gaianor</b>: reduz defesa e deixa lento, com defesa muito alta (Metal e dano contínuo).</li><li><b>Dom · Aetherion</b>: desfaz escudos e fica mais forte aos 20 e 40 s (dano no início).</li></ul>'},
     gear:{key:'gear',icon:'🛡',tag:'PRIMEIRO EQUIPAMENTO',h:'Você ganhou um equipamento!',ok:'Equipar agora',action:go('home','formation'),body:'<p>Peças caem na Torre e deixam seus campeões mais fortes. São 5 tipos (Elmo, Peitoral, Braçadeiras, Grevas e Acessório), cada um aumenta um atributo, e a cor mostra a raridade.</p><p><b>Para equipar:</b> no Menu principal, na sua formação, toque em <b>⚡ EQUIPAR AUTO</b> embaixo do campeão. Ele coloca as melhores peças sozinho.</p><p>No andar 10 libera o menu <b>Equipamentos e Forja</b>, para melhorar e vender peças.</p>'},
     slot:{key:'slot',icon:'⚔',tag:'NOVO ESPAÇO',h:'Coloque o campeão na equipe',ok:'Montar equipe',action:go('cards','formationTeam35'),body:'<p>Você tem um espaço livre na formação. Na aba <b>Campeões</b>, toque em um espaço vazio e escolha o campeão novo. Dois campeões lutam bem melhor que um!</p>'}
   };
@@ -3573,7 +3573,7 @@ body.newbie83 #home .evoCycle62,body.newbie83 #home .homeStats62{display:none!im
 //    Pode passar a vez para o automático. Chefe Global sempre usa o automático inteligente (inimigo único).
 // Estado no save: S.battle84 = 'auto' | 'manual'.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const mode=()=>S.battle84==='manual'?'manual':'auto';
   const CTRL=new Set(['Raio','Gelo','Luz','Som']);
@@ -3645,7 +3645,7 @@ body.newbie83 #home .evoCycle62,body.newbie83 #home .homeStats62{display:none!im
 <script id="v85-ux">
 // v0.85 · Experiência, guias e correções (pedidos do criador, 21/11/2026).
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const sleep=ms=>new Promise(r=>setTimeout(r,ms));
   const T=()=>{let t=(window.tut83State?tut83State():(S.tut83=S.tut83||{}));t.coach=t.coach||{};return t};
@@ -3799,7 +3799,7 @@ body[data-effects38="off"] #dailyClaim,body[data-effects38="off"] button[data-ac
 //  - Habilidades evoluem com a raridade: +10% no dano/cura do especial e +10% na duração dos efeitos de elemento
 //    por raridade acima da original do campeão. O ataque básico não muda.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const M=f=>{let x=Math.max(0,f-10);return 1+0.055*Math.pow(x,0.885)*Math.min(1,f/50)};
   window.towerScale86=M;
   const td86=towerDifficulty;towerDifficulty=function(f,n){let d=td86.apply(this,arguments);let m=M(+f||1);return {...d,hp:Math.max(1,Math.round(d.hp*m)),atk:Math.max(1,Math.round(d.atk*m)),def:Math.max(1,Math.round(d.def*(1+(m-1)*.5)))}};
@@ -3821,7 +3821,7 @@ body[data-effects38="off"] #dailyClaim,body[data-effects38="off"] button[data-ac
 //  - Coleção com filtros (raridade atual, elemento, função e busca). "Todos os campeões" com visão POR RARIDADE:
 //    todos os campeões possíveis em cada raridade, com atributos daquela forma, elemento, função e assinatura.
 (()=>{
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const sec=document.getElementById('cards');if(!sec)return;
   const PANELS=[['team','⚔','Equipe'],['coll','🃏','Coleção'],['all','📚','Todos os campeões'],['syn','✨','Sinergias']];
@@ -3942,7 +3942,7 @@ body[data-effects38="off"] #dailyClaim,body[data-effects38="off"] button[data-ac
 // - Bênçãos reformuladas (4 opções, limites de acúmulo), economia: sem penalidade por repetir andar, ouro base −15%, bônus temporários com teto
 // Todos os números ajustáveis estão em CFG88.
 (()=>{
-  const VER='1.13';
+  const VER='1.15';
   const CFG88={
     gold:{base:0.85,infinitePow:0.8,tempCap:0.25,tempFloor:-0.10},
     xp:{flat:1.12},
@@ -4267,13 +4267,13 @@ body[data-effects38="off"] #dailyClaim,body[data-effects38="off"] button[data-ac
     const fix=(v,k,g)=>{let out=v*r0[k]*t(g)/Math.max(1,rf[k]);return Number.isFinite(out)?Math.max(1,Math.min(1e12,Math.round(out))):v};
     return {...d,hp:fix(d.hp,'hp',c.ghp),atk:fix(d.atk,'atk',c.gatk),def:fix(d.def,'def',c.gdef)};
   };
-  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+  document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 </script>
 <script id="v90-interface">
 // v0.90 · Interface, guias e sistemas (pedido do criador, 22/11/2026)
 (()=>{
-const VER='1.13';
+const VER='1.15';
 const CFG90={
   auto:{unlock:150,diamond:300,gemPerRun:3,freeDaily:3},
   relic:{from:70,chance:0.00025},
@@ -4622,7 +4622,7 @@ safe('guide',()=>{
 // ================= 19) Chefão em destaque =================
 safe('boss',()=>{const rb=renderBattle;renderBattle=function(){let r=rb.apply(this,arguments);try{let ar=document.getElementById('arena');let boss=S.floor%10===0&&!pvpActive&&!globalActive35;if(ar){ar.classList.toggle('boss90',boss);if(boss&&ar.dataset.bossF90!==String(S.floor)){ar.dataset.bossF90=String(S.floor);ar.classList.remove('bossIn90');void ar.offsetWidth;ar.classList.add('bossIn90')}}}catch(e){}return r}});
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 try{window.paintMenu90&&window.paintMenu90();if(tab==='home')renderHome()}catch(e){}
 })();
 
@@ -4848,7 +4848,7 @@ safe('roster',()=>{const n=ACTIVE_TOTAL;const fix=()=>walk(document.body,t=>{let
 safe('guide',()=>{let G=window.GUIDE90;if(!G)return;let i=G.findIndex(g=>g[1].startsWith('Recompensas'));if(i>=0){let sec=document.getElementById('g90-'+i)?.querySelector('div');if(sec)sec.insertAdjacentHTML('beforeend',`<p><b>VIP:</b> Bronze (7 dias, R$ 4,90) · Prata (30 dias, R$ 19,90) · Ouro (mensal R$ 39,90 ou anual R$ 299,90). Todos dão Diamantes, ouro e <b>Gemas por dia</b> (3 / 6 / 10). <b>Sem Anúncios:</b> recompensas em dobro sem limite diário e, na Torre, +25% de ouro em toda subida. Comprar ainda está em breve.</p>`)}
   let j=G.findIndex(g=>g[1].startsWith('Objetivos'));if(j>=0){let sec=document.getElementById('g90-'+j)?.querySelector('div');if(sec)sec.insertAdjacentHTML('beforeend',`<p><b>Novidade:</b> os campeões Comuns agora evoluem até <b>Lendário</b>, e 6 campeões voltaram ao jogo (Nyara, Malik, Libraya, Veyron, Mireth e Zyron), também até Lendário. São ${ACTIVE_TOTAL} campeões no total.</p>`)}});
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -4889,9 +4889,9 @@ document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
   .subpanel.cashStore>h3::before,.subpanel.cashStore>h3::after{margin:0 .35em}
 }
 </style>
-<script id="v92-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';</script>
+<script id="v92-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';</script>
 <style id="v93-style">.bar90.cos{background:#3a8bff55!important}.bar90.xp{background:#e9c26a55!important}</style>
-<script id="v93-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';</script>
+<script id="v93-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';</script>
 <script id="v94-guias">
 // v0.94 · Guias com seta seguros: sempre a MENOR raridade nas vendas e a caixa do guia sempre dentro da tela.
 (()=>{
@@ -4925,7 +4925,7 @@ safe('clamp',()=>{
   new MutationObserver(fix).observe(coach,{attributes:true,attributeFilter:['style','class','hidden']});
   setInterval(fix,200);addEventListener('resize',fix);addEventListener('scroll',()=>requestAnimationFrame(fix),{passive:true});
 });
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -4936,7 +4936,7 @@ document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
 // Agora ele fica exatamente em cima do botão de velocidade (»1×).
 function fix(){let tip=document.getElementById('speedTip85'),b=document.getElementById('speed');if(!tip||!b)return;let p=tip.offsetParent||b.parentElement;if(!p)return;let br=b.getBoundingClientRect(),pr=p.getBoundingClientRect();let left=br.left-pr.left+br.width/2,top=br.top-pr.top;tip.style.left=left+'px';tip.style.top=top+'px';tip.style.bottom='auto';tip.style.transform='translate(-50%,calc(-100% - 6px))'}
 setInterval(fix,300);addEventListener('resize',fix);
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 </script>
 <style id="v95-style">#speedTip85{animation:tip95 .9s ease-in-out infinite!important}#speedTip85::after{content:"";position:absolute;left:50%;top:100%;transform:translateX(-50%);border:6px solid transparent;border-top-color:#1f7a43}@keyframes tip95{50%{margin-top:-4px}}</style>
@@ -4989,7 +4989,7 @@ safe('perf',()=>{
   requestAnimationFrame(loop);
 });
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -5054,7 +5054,7 @@ safe('fxFast',()=>{
   // Reinício de animação sem "releitura forçada" do layout: remove a classe e recoloca no próximo quadro.
   const an=anim;anim=function(el,c){if(!el)return;el.classList.remove(c);requestAnimationFrame(()=>{el.classList.add(c);setTimeout(()=>el.classList.remove(c),500)})};
 });
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -5073,7 +5073,7 @@ body.lite97 .elfx88{animation-duration:.5s!important}
 const keep=new Map();
 function preload(f){try{if(!inRun||pvpActive||globalActive35||typeof formation88!=='function')return;let n=f%10===0?1:(f<18?1:f<45?2:f<80?3:f<125?4:5);for(const id of formation88(f,n)){let u=D[id]?.url;if(!u||keep.has(id))continue;let im=new Image();im.decoding='async';im.src=u;if(im.decode)im.decode().catch(()=>{});keep.set(id,im);if(keep.size>40)keep.delete(keep.keys().next().value)}}catch(e){}}
 const st=setup;setup=function(){let r=st.apply(this,arguments);try{let f=S.floor;setTimeout(()=>{preload(f+1);preload(f+2)},250)}catch(e){}return r};
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 </script>
 <style id="v98-style">#enemies .fighter{animation:in98 .38s cubic-bezier(.2,.8,.2,1) both}
@@ -5082,8 +5082,8 @@ document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
 #team .fighter,#team .slot{animation:none}
 </style>
 <style id="v99-style">.flash99{animation:flash99 .65s ease-in-out 4!important;box-shadow:0 0 0 3px #ffe39a,0 0 22px #ffd36b!important}@keyframes flash99{50%{transform:scale(1.06)}}</style>
-<script id="v99-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';</script>
-<script id="v100-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';</script>
+<script id="v99-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';</script>
+<script id="v100-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';</script>
 <script id="v101-estavel">
 (()=>{
 // v1.01 · Tela de batalha estável: a arena não sacode mais e não muda de altura entre os andares.
@@ -5096,7 +5096,7 @@ setInterval(grow,500);
 const sr=startRun;startRun=function(){reset();let r=sr.apply(this,arguments);setTimeout(grow,60);return r};
 const fr=finishRun;finishRun=function(){let r=fr.apply(this,arguments);reset();return r};
 addEventListener('resize',()=>{reset();setTimeout(grow,120)});
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 </script>
 <style id="v101-style">
@@ -5408,7 +5408,7 @@ safe('fxLite',()=>{
 safe('news',()=>{if(S.news102)return;let iv=setInterval(()=>{if(typeof inRun!=='undefined'&&inRun)return;if(anyDialog()||!S.profile||!S.profile.onboarded)return;clearInterval(iv);S.news102=true;save();
   dlg('news102',`<h3>✦ Novidades da versão 1.02</h3><ul class="tip102"><li>◈ <b>Fragmentos de herói</b>: a cada 500 andares de toda subida, 1 fragmento garantido. 50 = escolha um Lendário · 100 = escolha um Celestial.</li><li>✚ <b>Reviver</b> campeão caído na Torre (até 3 por subida).</li><li>⇄ A cada <b>100 andares</b>, troque 1 campeão vivo por um reserva (10 s).</li><li>🔒 <b>Cadeado</b> nas cartas: campeão trancado nunca é vendido.</li><li>🏆 Prêmios no primeiro recorde dos andares 200, 300, 400 e 500.</li><li>» Velocidades 3×, 4× e 5× também por <b>ouro</b> (7 dias).</li><li>⚔ Arena com rivais de força parecida.</li></ul><div class="msg62Actions"><button type="button" class="primary" onclick="this.closest('dialog').close()">Vamos lá!</button></div>`)},1500)});
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -5576,7 +5576,7 @@ safe('podium',()=>{
   setInterval(()=>{try{if(typeof tab!=='undefined'&&tab==='pvp')paint()}catch(e){}},1500);
 });
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -5695,7 +5695,7 @@ safe('report',()=>{
   setInterval(()=>{try{let p=document.getElementById('auto90d');if(!p||!p.open||p.querySelector('.lim104'))return;let ul=p.querySelector('.auto90l');if(ul)ul.insertAdjacentHTML('afterbegin',`<li class="lim104"><b>Até ${CFG104.maxRuns} subidas por vez</b>, com relatório no final. Ao ligar, você escolhe quantas e se quer trocas automáticas a cada 100 andares.</li>`)}catch(e){}},400);
 });
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -5713,7 +5713,7 @@ document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
 <style id="v105-style">
 #n102{margin:4px 0 10px;font-size:.92em;line-height:1.45;opacity:.9}
 </style>
-<script id="v105-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';</script>
+<script id="v105-title">document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';</script>
 <script id="v106-forja">
 // v1.06 · Forja em lote (até +5) e nos Detalhes do campeão · velocidade alugada funcionando · dica de onde tocar.
 (()=>{
@@ -5804,7 +5804,7 @@ safe('speed',()=>{
     chips.forEach(c=>c.classList.toggle('hint106',c.textContent.trim()===v+'×'))}catch(e){}},700);
 });
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -5869,7 +5869,7 @@ window.paintRelicCount107=paint;
 safe('relic',()=>{if(typeof renderTemple38==='function'){const rt=renderTemple38;renderTemple38=function(){let r=rt.apply(this,arguments);try{paint()}catch(e){}return r}}});
 setInterval(()=>{try{if(typeof tab!=='undefined'&&tab==='temple38')paint()}catch(e){}},800);
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -5999,7 +5999,7 @@ safe('bless',()=>{const cb=chooseBlessing40;chooseBlessing40=function(key){let f
   return ok}});
 setInterval(()=>{try{let d=document.getElementById('blessingDialog40');if(!d||!d.open)return;let h=d.querySelector('.blessingHeading40');if(h&&!h.querySelector('.auto108'))h.insertAdjacentHTML('beforeend','<p class="auto108">⏳ Caso nenhuma bênção seja selecionada, o sistema escolherá automaticamente uma das opções ao término da contagem regressiva.</p>')}catch(e){}},250);
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -6086,7 +6086,7 @@ window.missionFactor109=()=>({gold:factor(CFG109.missions.goldPerLv),gem:factor(
 safe('missions',()=>{const md=missionDefs;missionDefs=function(){let m=md.apply(this,arguments);try{let g=factor(CFG109.missions.goldPerLv),gm=factor(CFG109.missions.gemPerLv);for(const k of Object.keys(m))m[k]=m[k].map(d=>{let x=[...d];x[3]=Math.round(num(x[3])*g);x[4]=num(x[4])?Math.max(1,Math.round(num(x[4])*gm)):0;x[5]=num(x[5])?Math.round(num(x[5])*Math.sqrt(g)):0;return x})}catch(e){}return m}});
 setInterval(()=>{try{if(typeof tab==='undefined'||tab!=='checkin')return;let mb=document.getElementById('missionBoard');if(!mb||mb.querySelector('.mlvl109'))return;let f=window.missionFactor109();mb.insertAdjacentHTML('afterbegin',`<p class="mlvl109">⭐ Recompensas ajustadas ao seu nível de conta (${lvl()}): ouro ×${f.gold.toFixed(2)} · gemas ×${f.gem.toFixed(2)}</p>`)}catch(e){}},1000);
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -6150,7 +6150,7 @@ safe('offer',()=>{
       <div class="blessingTimer59" role="timer"><div class="blessingTrack59"><i id="blessingBar110"></i></div><b id="blessingClock110">15 s</b></div></div>
       <div class="blessingChoices40 offer110">${keys.map(k=>{let b=B[k],n=blessingRun40.filter(x=>x.key===k).length;return `<button data-choose-blessing40="${k}" class="blessingChoice40"><span>${b.i||'✦'}</span><strong>${esc(b.n)}</strong><small>${esc(fxText(b.fx))}</small>${n?`<em class="rep88">já tem ${n} · acumula</em>`:''}<em>Escolher</em></button>`}).join('')}</div>`;
     let d=$('blessingDialog40');if(!d.open)d.showModal();
-    stopOffer();const paint=()=>{if(!offer)return stopOffer();let left=Math.max(0,offer.deadline-Date.now());let c=document.getElementById('blessingClock110'),bar=document.getElementById('blessingBar110');if(c)c.textContent=Math.ceil(left/1000)+' s';if(bar)bar.style.width=(100*left/CFG110.offerMs)+'%';
+    stopOffer();const paint=()=>{if(!offer)return stopOffer();if(window.__bp114)offer.deadline=Date.now()+window.__bp114;let left=Math.max(0,offer.deadline-Date.now());let c=document.getElementById('blessingClock110'),bar=document.getElementById('blessingBar110');if(c)c.textContent=Math.ceil(left/1000)+' s';if(bar)bar.style.width=(100*left/CFG110.offerMs)+'%';
       if(left<=0){let k=offer.keys[Math.floor(Math.random()*offer.keys.length)];let fl=offer.floor;offer=null;stopOffer();if(!chooseBlessing40(k)){if(blessingPending40===fl){blessingPending40=null;if(d.open)d.close();if(inRun){running=true;last=performance.now()}}}}};
     paint();otimer=setInterval(paint,200);try{update()}catch(e){}return true};
   const cb=chooseBlessing40;chooseBlessing40=function(k){if(offer&&!offer.keys.includes(k))return false;let ok=cb.apply(this,arguments);if(ok){offer=null;stopOffer()}return ok};
@@ -6221,7 +6221,7 @@ safe('global',()=>{
 });
 setInterval(()=>{try{if(!globalActive35)return;let b=enemies[0];if(!b||!b._base110)return;let pct=Math.round((b.atk/b._base110.atk-1)*100);let s=document.getElementById('status');let t=`Fúria do chefe · turno ${turn} · ataque +${pct}% · dano causado ${fmt(Math.floor(globalDamage35||0))}`;if(s&&s.textContent!==t)s.textContent=t}catch(e){}},500);
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -6316,7 +6316,7 @@ safe('gearCost',()=>{for(const q of [1,10,100])if(gearCosts[q])Object.assign(gea
 // texto das chances dos baús de equipamento
 setInterval(()=>{try{if(tab!=='summon')return;let host=document.getElementById('gearPackStore');if(!host)return;let p=document.getElementById('gearOdds111');const pct=v=>(v*100).toLocaleString('pt-BR',{maximumFractionDigits:3})+'%';let t=`Chances dos baús de EQUIPAMENTO (e dos drops nos andares): Comum ${pct(CFG111.gearOdds[0])} · Incomum ${pct(CFG111.gearOdds[1])} · Raro ${pct(CFG111.gearOdds[2])} · Épico ${pct(CFG111.gearOdds[3])} · Lendário ${pct(CFG111.gearOdds[4])} · Divino ${pct(CFG111.gearOdds[5])} · Celestial ${pct(CFG111.gearOdds[6])}`;if(!p){p=document.createElement('p');p.id='gearOdds111';p.className='gearOdds111';host.after(p)}if(p.textContent!==t)p.textContent=t}catch(e){}},1200);
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -6362,7 +6362,7 @@ setInterval(()=>{try{paintDetail()}catch(e){}},400);
 
 // ================= 3) EVOLUÇÃO: confirmação e efeito de fusão =================
 let evoBypass=false;
-document.addEventListener('click',e=>{if(evoBypass)return;let b=e.target.closest('#detail [data-evolve]');if(!b||b.disabled)return;let id=+b.dataset.evolve;if(!canEvolve(id))return;e.preventDefault();e.stopImmediatePropagation();
+document.addEventListener('click',e=>{if(evoBypass||window.__evo115)return;let b=e.target.closest('#detail [data-evolve]');if(!b||b.disabled)return;let id=+b.dataset.evolve;if(!canEvolve(id))return;e.preventDefault();e.stopImmediatePropagation();
   let h=S.heroes[id],from=h.rank,to=h.rank+1,bk=buckets(id),useR=Object.keys(bk).map(Number).sort((a,c)=>a-c)[0]||D[id].r;
   let c=document.getElementById('evo112');if(!c){c=document.createElement('dialog');c.id='evo112';c.className='msg62';document.body.append(c)}
   c.innerHTML=`<h3>✦ Evoluir ${esc(D[id].n)}?</h3><p><b style="color:${rc[from]}">${esc(RN(from))}</b> → <b style="color:${rc[to]}">${esc(RN(to))}</b></p><p>Vai consumir <b>1 cópia</b> (${esc(RN(useR))}). O campeão volta ao <b>nível 1</b> na nova raridade, mantém pontos e equipamentos e fica mais forte (golpes e especiais também melhoram).</p><div class="msg62Actions"><button type="button" data-ev112="0">Cancelar</button><button type="button" class="primary" data-ev112="1">Evoluir</button></div>`;
@@ -6410,7 +6410,7 @@ function paintGuide(){let g=document.getElementById('guide90');if(!g||g.querySel
 <p><b>🔒 Cadeado</b> nas cartas evita vender sem querer. <b>⚔ Arena:</b> 5 desafios por dia, rivais de força parecida.</p></div></details>`)}
 setInterval(()=>{try{paintGuide()}catch(e){}},1500);
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -6487,23 +6487,23 @@ const num=v=>Math.max(0,Math.floor(Number(v)||0));
 const toast=(h,ms)=>{try{window.toast90&&toast90(h,ms)}catch(e){}};
 
 // ================= 1) 6 ELEMENTOS =================
-const MAP={'Fogo':'Fogo','Lava':'Fogo','Sol':'Luz','Água':'Água','Gelo':'Água','Vento':'Vento','Raio':'Vento','Som':'Vento','Terra':'Terra','Pedra':'Terra','Metal':'Terra','Natureza':'Terra','Areia':'Terra','Luz':'Luz','Cosmo':'Luz','Cosmos':'Luz','Arcano':'Luz','Tempo':'Luz','Sombra':'Sombra','Trevas':'Sombra','Veneno':'Sombra'};
-const SET={ // elemento de cada campeão mantido
- 'Arkeon · Áries':'Fogo','Leonix · Leão':'Fogo','Sagira · Sagitário':'Fogo','Tauron · Touro':'Terra','Viridia · Virgem':'Terra','Caprion · Capricórnio':'Terra','Geminor · Gêmeos':'Vento','Justia · Libra':'Vento','Aquarion · Aquário':'Vento','Carcyria · Câncer':'Água','Scorvan · Escorpião':'Água','Piscea · Peixes':'Água',
- 'Longwei':'Fogo','Iberon':'Fogo','Lusian':'Água','Alpien':'Água','Valerio':'Terra','Akihiro':'Terra','Eagleon':'Vento','Alaric':'Vento','Nikandros':'Luz','Éloïse':'Luz','Khepran':'Sombra','Volkar':'Sombra',
- 'Kaien':'Fogo','Vulcan':'Fogo','Marekhan':'Água','Nerion':'Água','Drakar':'Terra','Sylvena':'Terra','Zephion':'Vento','Voltaris':'Vento','Hanayra':'Luz','Leonar':'Luz','Umbros':'Sombra','Nyxara':'Sombra',
- 'Ares':'Fogo','Poseidon':'Água','Atena':'Terra','Zeus':'Vento','Apolo':'Luz','Hades':'Sombra'};
-window.ELEMENTS113=['Fogo','Água','Terra','Vento','Luz','Sombra'];
+const MAP={'Fogo':'Fogo','Lava':'Fogo','Sol':'Luz','Água':'Água','Gelo':'Água','Vento':'Raio','Raio':'Raio','Som':'Raio','Terra':'Pedra','Pedra':'Pedra','Metal':'Pedra','Areia':'Pedra','Natureza':'Planta','Planta':'Planta','Luz':'Luz','Cosmo':'Luz','Cosmos':'Luz','Arcano':'Luz','Tempo':'Luz','Sombra':'Escuridão','Trevas':'Escuridão','Veneno':'Escuridão','Escuridão':'Escuridão'};
+const SET={ // elemento de cada campeão (46) · v1.15: 7 elementos
+ 'Arkeon · Áries':'Fogo','Leonix · Leão':'Fogo','Tauron · Touro':'Pedra','Caprion · Capricórnio':'Pedra','Viridia · Virgem':'Planta','Geminor · Gêmeos':'Raio','Sagira · Sagitário':'Raio','Justia · Libra':'Luz','Carcyria · Câncer':'Água','Aquarion · Aquário':'Água','Piscea · Peixes':'Água','Scorvan · Escorpião':'Escuridão',
+ 'Eagleon':'Raio','Nikandros':'Raio','Longwei':'Fogo','Iberon':'Fogo','Akihiro':'Planta','Caurion':'Planta','Éloïse':'Luz','Aurel Sur':'Luz','Valerio':'Pedra','Alpien':'Pedra','Alaric':'Água','Lusian':'Água','Volkar':'Escuridão','Khepran':'Escuridão',
+ 'Zephion':'Raio','Voltaris':'Raio','Kaien':'Fogo','Vulcan':'Fogo','Sylvena':'Planta','Aruan':'Planta','Drakar':'Pedra','Freyra':'Pedra','Marekhan':'Água','Nerion':'Água','Hanayra':'Luz','Leonar':'Luz','Umbros':'Escuridão','Nyxara':'Escuridão',
+ 'Zeus':'Raio','Poseidon':'Água','Ares':'Fogo','Atena':'Planta','Apolo':'Luz','Hades':'Escuridão'};
+window.ELEMENTS113=['Água','Fogo','Planta','Pedra','Raio','Luz','Escuridão'];
 safe('elements',()=>{
-  const KW={'Morte':'Sombra','Noite':'Sombra','Ilusão':'Sombra','Abismo':'Água','Gravidade':'Terra','Criação':'Luz','Tempestade':'Vento','Primordial':'Fogo','Oceano':'Água','Céu':'Vento','Caos':'Sombra','Vida':'Luz'};
+  const KW={'Morte':'Escuridão','Noite':'Escuridão','Ilusão':'Escuridão','Abismo':'Água','Gravidade':'Pedra','Criação':'Luz','Tempestade':'Raio','Primordial':'Fogo','Oceano':'Água','Céu':'Raio','Caos':'Escuridão','Vida':'Planta'};
   const one=x=>{x=String(x||'').trim();if(MAP[x])return MAP[x];for(const k of Object.keys(MAP))if(x.includes(k))return MAP[k];for(const k of Object.keys(KW))if(x.includes(k))return KW[k];return null};
   for(const d of D){if(!d)continue;if(SET[d.n]){d.element=SET[d.n];continue}let parts=String(d.element||'').split('/').map(one).filter(Boolean);d.element=parts[0]||'Luz'}
-  let M=window.elementMatrix88;if(M){let B=M.BEATS;for(const k of Object.keys(B))delete B[k];Object.assign(B,{'Fogo':['Vento'],'Vento':['Terra'],'Terra':['Água'],'Água':['Fogo'],'Luz':['Sombra'],'Sombra':['Luz']});if(M.FAM)Object.assign(M.FAM,MAP)}
+  let M=window.elementMatrix88;if(M){let B=M.BEATS;for(const k of Object.keys(B))delete B[k];Object.assign(B,{'Água':['Fogo'],'Fogo':['Planta'],'Planta':['Pedra'],'Pedra':['Raio'],'Raio':['Água'],'Luz':['Escuridão'],'Escuridão':['Luz']});if(M.FAM)Object.assign(M.FAM,MAP)}
   try{for(const s of (window.sector88&&sector88.SECT88)||[])if(s&&s.d)s.d=MAP[s.d]||s.d}catch(e){}
   // bênçãos de elemento: só os 6
   let BL=window.BLESSINGS88||{};
   for(const [k,b] of Object.entries(BL)){let e=b.fx&&b.fx.elem;if(!e)continue;let n={};for(const [x,v] of Object.entries(e)){let y=MAP[x]||x;n[y]=Math.max(n[y]||0,v)}b.fx.elem=n}
-  if(BL.gaia&&BL.gaia.fx.elem)BL.gaia.fx.elem={'Terra':.19};
+  if(BL.gaia&&BL.gaia.fx.elem)BL.gaia.fx.elem={'Pedra':.15,'Planta':.15};
   if(BL.boreas){BL.boreas.fx={spd:.05,def:.05};delete BL.boreas.c;BL.boreas.c='off'}
 });
 
@@ -6516,7 +6516,7 @@ safe('comp',()=>{let R=S.retiredChampions39;if(!R||typeof R!=='object')return;le
     else{let g=PRICE_COMMON(h);gold+=g;rows.push(`${esc(rec.name)} → ${fmt(g)} ouro`)}
     rec.comp113=true}
   if(!rows.length)return;S.gold=num(S.gold)+gold;S.forge=num(S.forge)+forge;if(fragL&&window.frag102)frag102().L+=fragL;save();
-  let show=()=>{let d=document.createElement('dialog');d.className='msg62';d.innerHTML=`<h3>✦ O elenco ficou mais enxuto</h3><p>O jogo agora tem <b>42 campeões</b> (12 Zodíaco · 12 Nações · 12 Comuns · 6 Celestiais) e <b>6 elementos</b> (Fogo, Água, Terra, Vento, Luz e Sombra). Os campeões que saíram voltam em próximas atualizações.</p><p>Você recebeu uma compensação pelos campeões que tinha:</p><ul class="comp113">${rows.slice(0,14).map(r=>`<li>${r}</li>`).join('')}${rows.length>14?`<li>… e mais ${rows.length-14}</li>`:''}</ul><p><b>Total:</b> ${fmt(gold)} ouro${forge?` · ${forge} cristais`:''}${fragL?` · ◈ ${fragL} fragmentos Lendários`:''}. Os equipamentos deles voltaram ao inventário.</p><div class="msg62Actions"><button type="button" class="primary" onclick="this.closest('dialog').close()">Entendi</button></div>`;document.body.append(d);d.showModal()};
+  let show=()=>{let d=document.createElement('dialog');d.className='msg62';d.innerHTML=`<h3>✦ O elenco ficou mais enxuto</h3><p>O jogo agora tem <b>46 campeões</b> (12 Zodíaco · 14 Nações · 14 Comuns · 6 Celestiais) e <b>7 elementos</b> (Água, Fogo, Planta, Pedra, Raio, Luz e Escuridão). Os campeões que saíram voltam em próximas atualizações.</p><p>Você recebeu uma compensação pelos campeões que tinha:</p><ul class="comp113">${rows.slice(0,14).map(r=>`<li>${r}</li>`).join('')}${rows.length>14?`<li>… e mais ${rows.length-14}</li>`:''}</ul><p><b>Total:</b> ${fmt(gold)} ouro${forge?` · ${forge} cristais`:''}${fragL?` · ◈ ${fragL} fragmentos Lendários`:''}. Os equipamentos deles voltaram ao inventário.</p><div class="msg62Actions"><button type="button" class="primary" onclick="this.closest('dialog').close()">Entendi</button></div>`;document.body.append(d);d.showModal()};
   let iv=setInterval(()=>{if(typeof inRun!=='undefined'&&inRun)return;if(document.querySelector('dialog[open]'))return;clearInterval(iv);show()},1200);
   // formação vazia/incompleta: monta a melhor
   try{if((S.team||[]).length<Math.min(typeof cap==='function'?cap():5,Object.keys(S.heroes).length)){S.team=strongestFormation34();save()}}catch(e){}
@@ -6550,7 +6550,7 @@ safe('relic',()=>{if(window.CFG90&&CFG90.relic)CFG90.relic.from=200});
 // Torre recalibrada para o elenco novo (simulador: 5 Lendários ~517 · 4 Lendários ~500 · 3 Lendários ~330)
 safe('tower',()=>{if(window.CFG111)CFG111.towerHarden=.03});
 
-document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
 })();
 
 </script>
@@ -6561,5 +6561,225 @@ document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.13';
 .qty113 button{min-width:44px}
 .small113{font-size:12px;margin-top:10px}
 .linkish113{background:transparent;border:1px solid #d87e87;color:#ffb3b8;padding:3px 8px;font-size:12px;min-height:0}
+</style>
+<script id="v114-estabilidade">
+// v1.14 · Etapa 1: Chefe Global de verdade (nível 100, sem tempo, rodadas), salvamento seguro e leve,
+// HP sobre a barra, pausa nas bênçãos e novos preços dos baús com ouro.
+(()=>{
+const safe=(n,f)=>{try{f()}catch(e){console.error('v114 '+n,e)}};
+const toast=(h,ms)=>{try{window.toast90&&toast90(h,ms)}catch(e){}};
+
+// ================= 1) CHEFE GLOBAL =================
+safe('globalLevel',()=>{const gs=globalState35;globalState35=function(){let g=gs.apply(this,arguments);try{if(g&&typeof g==='object')g.level=100}catch(e){}return g}});
+safe('globalBossLv',()=>{const sg=startGlobal35;startGlobal35=function(){let was=globalActive35;let r=sg.apply(this,arguments);try{if(!was&&globalActive35&&enemies[0]){enemies[0].lv=100;globalEnd35=Infinity;renderBattle()}}catch(e){}return r}});
+const GTXT=[[/Ataque por 60 segundos e conquiste sua posição pelo maior dano em uma entrada\./g,'Sem limite de tempo: o chefe fica mais forte a cada rodada até derrubar sua equipe. Conquiste sua posição pelo maior dano em uma entrada.'],
+  [/A entrada termina após 60 segundos/g,'A entrada termina quando sua equipe cair'],[/60 segundos de combate[^.]*\.?/g,'Sem limite de tempo · o chefe fica mais forte a cada rodada.'],[/Nível do chefe · \d+/g,'Nível do chefe · 100'],[/Raide diário iniciado · 60 segundos\./g,'Raide diário iniciado · sem limite de tempo.'],[/Ataque por 60 segundos/g,'Sem limite de tempo']];
+function fixText(root){if(!root)return;let w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),n;while(n=w.nextNode()){let v=n.nodeValue,o=v;for(const [re,t] of GTXT)v=v.replace(re,t);if(v!==o)n.nodeValue=v}}
+setInterval(()=>{try{if(tab==='global')fixText(document.getElementById('global'));if(typeof globalActive35!=='undefined'&&globalActive35){let b=enemies[0];let base=b&&b._base110;let pct=base?Math.round((b.atk/base.atk-1)*100):0;let dmg=fmt(Math.floor(globalDamage35||0));let rnd=(window.__gTurn114||0);
+    let m=document.getElementById('battleMonitorText');if(m){let t=`Rodada ${rnd} · ${dmg} de dano · chefe +${pct}% ATQ`;if(m.textContent!==t)m.textContent=t}
+    let fl=document.getElementById('floor');if(fl){let t=`Rodada ${rnd} · ${dmg} dano`;if(fl.textContent!==t)fl.textContent=t}
+    let st=document.getElementById('floorStageText');if(st&&st.textContent!=='A entrada termina quando sua equipe cair')st.textContent='A entrada termina quando sua equipe cair';
+    let cs=document.getElementById('climbStatus');if(cs){let t='Chefe nível 100 · imortal · fica mais forte a cada rodada';if(cs.textContent!==t)cs.textContent=t}
+    let lv=document.querySelector('#enemies .fighter .level');if(lv&&lv.textContent!=='Nv. 100')lv.textContent='Nv. 100'}}catch(e){}},250);
+// desistir do Chefe Global: encerra e registra o dano causado
+document.addEventListener('click',e=>{let b=e.target.closest('#giveup');if(!b||typeof globalActive35==='undefined'||!globalActive35)return;e.preventDefault();e.stopImmediatePropagation();
+  let d=document.getElementById('gq114');if(!d){d=document.createElement('dialog');d.id='gq114';d.className='msg62';document.body.append(d)}
+  d.innerHTML=`<h3>Encerrar o ataque ao Chefe Global?</h3><p>O dano causado até agora (<b>${fmt(Math.floor(globalDamage35||0))}</b>) conta para o ranking.</p><div class="msg62Actions"><button type="button" data-gq114="0">Continuar lutando</button><button type="button" class="danger" data-gq114="1">Encerrar</button></div>`;
+  d.onclick=ev=>{let k=ev.target.closest('[data-gq114]');if(!k)return;d.close();if(k.dataset.gq114==='1'&&globalActive35){try{finishGlobal35()}catch(err){}}};d.showModal()},true);
+safe('globalGiveUp',()=>{const gu=giveUp;giveUp=function(){if(typeof globalActive35!=='undefined'&&globalActive35){try{finishGlobal35()}catch(e){}return}return gu.apply(this,arguments)}});
+// rodada = cada ação do chefe (o fortalecimento cumulativo da v1.10 acontece aqui); zera a cada nova tentativa
+safe('globalRound',()=>{const sg=startGlobal35;startGlobal35=function(){window.__gTurn114=0;return sg.apply(this,arguments)};const at=attack;attack=function(b,o,own,isE){let r=at.apply(this,arguments);try{if(globalActive35&&isE)window.__gTurn114=(window.__gTurn114||0)+1}catch(e){}return r}});
+
+// ================= 2) SALVAMENTO SEGURO E LEVE =================
+// a) Durante a subida: no máximo 1 gravação a cada 5 s (sempre a mais recente). Fora da subida: na hora.
+let lastSave=0,pend=0;
+safe('saveThrottle',()=>{const sv=save;save=function(){if(typeof inRun!=='undefined'&&inRun&&!globalActive35){let now=Date.now();if(now-lastSave<5000){if(!pend)pend=setTimeout(()=>{pend=0;lastSave=Date.now();try{sv()}catch(e){}},5000-(now-lastSave));return}lastSave=now}else{if(pend){clearTimeout(pend);pend=0}lastSave=Date.now()}return sv.apply(this,arguments)};window.saveNow114=()=>{if(pend){clearTimeout(pend);pend=0}lastSave=Date.now();try{sv()}catch(e){}}});
+// b) Ao fechar, minimizar ou trocar de aba: grava na hora (nada se perde)
+['pagehide','beforeunload'].forEach(ev=>addEventListener(ev,()=>{try{window.saveNow114&&saveNow114()}catch(e){}}));
+document.addEventListener('visibilitychange',()=>{if(document.hidden)try{window.saveNow114&&saveNow114()}catch(e){}});
+// c) Fim de subida e recompensas: sempre gravam na hora
+safe('finishSave',()=>{const fr=finishRun;finishRun=function(){let r=fr.apply(this,arguments);try{window.saveNow114&&saveNow114()}catch(e){}return r}});
+// d) Armazenamento cheio: libera as cópias de segurança antigas e tenta de novo (o progresso principal nunca fica sem gravar)
+safe('quota',()=>{const set=Storage.prototype.setItem;let warned=false;Storage.prototype.setItem=function(k,v){try{return set.call(this,k,v)}catch(e){if(!/quota|exceed/i.test(String(e&&e.name||e)))throw e;
+  for(const old of ['cosmo66-before-cloud','cosmo90-overwrite-backup','cosmo38-quarantine','cosmo38-backup'])if(old!==k)try{this.removeItem(old)}catch(_){}
+  try{return set.call(this,k,v)}catch(e2){if(!warned){warned=true;toast('⚠ <b>Armazenamento do navegador cheio.</b><br><small>Venda equipamentos que não usa e conecte sua conta Google para guardar o progresso na nuvem.</small>',9000)}throw e2}}}});
+
+// ================= 3) HP EM CIMA DA BARRA VERDE =================
+setInterval(()=>{try{if(tab!=='tower')return;document.querySelectorAll('#team .fighter, #enemies .fighter').forEach(f=>{let n=f.querySelector(':scope > .hpnum'),bar=f.querySelector(':scope > .bar');if(n&&bar&&n.nextElementSibling!==bar)f.insertBefore(n,bar)})}catch(e){}},300);
+
+// ================= 4) BÊNÇÃOS: ⏸ PAUSAR TEMPO =================
+window.__bp114=0;
+setInterval(()=>{try{let d=document.getElementById('blessingDialog40');if(!d||!d.open){window.__bp114=0;return}let h=d.querySelector('.blessingHeading40');if(!h)return;let b=h.querySelector('.pause114');
+  if(!b){b=document.createElement('button');b.type='button';b.className='pause114';h.append(b);b.onclick=e=>{e.preventDefault();if(window.__bp114){window.__bp114=0}else{let s=parseInt(document.getElementById('blessingClock110')?.textContent||'10',10);window.__bp114=Math.max(1,s)*1000}}}
+  let t=window.__bp114?'▶ RETOMAR CONTAGEM':'⏸ PAUSAR TEMPO';if(b.textContent!==t)b.textContent=t;d.classList.toggle('paused114',!!window.__bp114)}catch(e){}},150);
+
+// ================= 5) PREÇOS DOS BAÚS COM OURO =================
+// Descontos atuais confirmados no código: 10× = −10% · 100× = −15%. Gemas, chances e garantias não mudam.
+safe('prices',()=>{const H={1:10000,10:90000,100:850000},G={1:8000,10:72000,100:680000};for(const q of [1,10,100]){if(summonCosts[q])summonCosts[q].gold=H[q];if(gearCosts[q])gearCosts[q].gold=G[q]}
+  try{if(window.CFG90&&CFG90.chest100){CFG90.chest100.hero.gold=H[100];CFG90.chest100.gear.gold=G[100]}}catch(e){}try{if(window.CFG111&&CFG111.gearCost)for(const q of [1,10,100])CFG111.gearCost[q].gold=G[q]}catch(e){}try{renderShop()}catch(e){}});
+
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
+})();
+
+</script>
+<style id="v114-style">
+.pause114{display:block;margin:8px auto 0;padding:6px 14px;font-weight:800;border:1px solid #f2cb76;background:#2a2210;color:#ffe3a0}
+#blessingDialog40.paused114 .blessingTimer59{opacity:.45}
+#team .fighter > .hpnum, #enemies .fighter > .hpnum{margin:2px 0 1px;font-weight:700;font-size:11px;text-align:center;color:#d6ffe4}
+</style>
+<script id="v115-cartas">
+// v1.15 · Cartas individuais (cópias = campeões completos), nova evolução, coleção com filtros e marcas de equipe,
+// 46 campeões, 7 elementos, poder por raridade igual para todas as origens e ressurreição em todos os modos.
+(()=>{
+const safe=(n,f)=>{try{f()}catch(e){console.error('v115 '+n,e)}};
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const num=v=>Math.max(0,Math.floor(Number(v)||0));
+const toast=(h,ms)=>{try{window.toast90&&toast90(h,ms)}catch(e){}};
+const RN=r=>(typeof rar!=='undefined'&&rar[r])||'';
+window.__evo115=true; // a evolução nova substitui a confirmação da v1.12
+
+// ================= 1) PODER POR RARIDADE (igual para todas as origens) =================
+// Índice no nível 100: Comum 100 · Incomum 140 · Raro 196 · Épico 274 · Lendário 411 · Divino 617 · Celestial 926.
+// Cada campeão distribui esse orçamento pelo seu perfil (ATQ/DEF/PV) e varia no máximo ±3%.
+const CFG115={idx:[0,100,140,196,274,411,617,926],k:1.055,jitter:.03,veteran:.03,celestialEdge:1.04,earlySoft:{f0:1,f1:120,min:.8},
+  elem:{advDeal:.12,capElem:.115}};
+window.CFG115=CFG115;
+const T=r=>CFG115.idx[Math.max(1,Math.min(7,r|0))]*CFG115.k;
+const L=r=>r<=1?T(1)*.6:T(r-1)*.97;
+safe('budget',()=>{const ob=baseHero;baseHero=function(d,r,lv=1){if(!d||d.villain||d.boss||!d.group)return ob.apply(this,arguments);
+  let a=Math.max(1,+d.atk||1),df=Math.max(1,+d.def||1),h=Math.max(1,(+d.hp||1)/5),s=a+df+h,L0=L(r),T0=T(r),x=Math.max(0,Math.min(99,(lv|0)-1))/99;
+  let base=(d.base115!=null?d.base115:d.id),jit=1+(((base*37)%7)-3)/3*CFG115.jitter,pw=(L0+(T0-L0)*x)*jit;
+  return {atk:Math.max(1,Math.floor(pw*a/s)),def:Math.max(1,Math.floor(pw*df/s)),hp:Math.max(1,Math.floor(pw*h/s*5)),spd:d.spd}};
+  // Celestiais nascidos: um pouco acima (4%) · Veterano dos Comuns: só +3%
+  try{let F=window.celestialBoost112;if(F)for(const k of Object.keys(F))F[k]=CFG115.celestialEdge}catch(e){}
+  try{if(window.CFG102&&CFG102.common)CFG102.common.veteran=CFG115.veteran}catch(e){}
+  // começo da Torre um pouco mais leve (os Comuns ficaram mais fracos no novo escalonamento)
+  const td=towerDifficulty;towerDifficulty=function(f,n){let d=td.apply(this,arguments);f=+f||1;let E=CFG115.earlySoft;if(f>=E.f1)return d;let m=E.min+(1-E.min)*Math.max(0,(f-E.f0)/(E.f1-E.f0));return {...d,hp:Math.max(1,Math.round(d.hp*m)),atk:Math.max(1,Math.round(d.atk*m))}};
+  // vantagem elemental: no máximo +25% somando campeão e bênçãos
+  if(window.CFG88){CFG88.elem.advDeal=CFG115.elem.advDeal;CFG88.caps.elem=CFG115.elem.capElem}
+});
+
+// ================= 2) CARTAS INDIVIDUAIS =================
+// A carta "ativa" de cada campeão fica em S.heroes (é a que vai para as formações). As outras cartas do mesmo campeão
+// ficam em S.cards115, cada uma com nível, XP, raridade e pontos próprios. "Usar esta carta" troca qual é a ativa.
+const C=()=>{let c=S.cards115;if(!Array.isArray(c))c=S.cards115=[];return c};
+const uid=()=>'c'+Date.now().toString(36)+Math.random().toString(36).slice(2,7);
+const cardsOf=base=>C().filter(c=>c.base===base);
+window.cards115=C;
+function newCard(base,rank){let c={uid:uid(),base,rank:Math.max(D[base].r,Math.min(D[base].maxRank,rank|0)),lv:1,xp:0,points:0,bonus:{atk:0,hp:0,def:0,spd:0},t:Date.now()};C().push(c);return c}
+// ---- migração única: contadores antigos de cópias viram cartas ----
+safe('migrate',()=>{if(S.cards115v===1)return;let made=0;try{localStorage.setItem('cosmo115-before-cards',JSON.stringify({stamp:Date.now(),heroes:S.heroes,copies112:S.copies112}))}catch(e){}
+  for(const [k,h] of Object.entries(S.heroes||{})){let id=+k,n=num(h.dup);if(!n||!D[id])continue;let b=window.copies112?copies112(id):{};let list=[];for(const r of Object.keys(b).map(Number).sort((a,c)=>a-c))for(let i=0;i<num(b[r]);i++)list.push(r);while(list.length<n)list.push(D[id].r);
+    for(const r of list.slice(0,n)){newCard(id,r);made++}h.dup=0}
+  S.copies112={};S.cards115v=1;save();if(made)setTimeout(()=>toast(`🃏 <b>${made} cópia(s) viraram cartas individuais</b><br><small>Agora cada cópia é um campeão completo, com nível próprio. Veja em Campeões.</small>`,8000),3500)});
+// ---- campeão repetido vira uma carta nova (nunca fragmento) ----
+safe('acquire',()=>{const af=acquireForm;acquireForm=function(id,r){let had=!!S.heroes[id],d0=had?num(S.heroes[id].dup):0;let res=af.apply(this,arguments);
+  try{if(had&&res){let h=S.heroes[id];if(h){h.dup=d0}try{let cp=S.copies112&&S.copies112[id];if(cp&&num(cp[r])>0)cp[r]--}catch(e){}newCard(id,r);return 'fragment'}}catch(e){}return res}});
+// ---- nova regra de evolução: nível 100 + outra carta do mesmo campeão e da MESMA raridade ----
+const eligible=id=>{let h=S.heroes[id];return h?cardsOf(id).filter(c=>c.rank===h.rank).sort((a,b)=>a.lv-b.lv||a.t-b.t):[]};
+safe('canEvolve',()=>{canEvolve=function(id){let h=S.heroes[id];return !!h&&!h.pendingRank&&D[id]&&h.rank<D[id].maxRank&&h.lv===100&&eligible(id).length>0}});
+function preview(id){let h=S.heroes[id];let now=stats(id),nx=null;try{nx=stats(id,h.rank+1)}catch(e){}return {now,nx}}
+let evoBypass=false;
+document.addEventListener('click',e=>{if(evoBypass)return;let b=e.target.closest('#detail [data-evolve]');if(!b||b.disabled)return;let id=+b.dataset.evolve,h=S.heroes[id];if(!h)return;e.preventDefault();e.stopImmediatePropagation();
+  let el=eligible(id);let d=document.getElementById('evo115');if(!d){d=document.createElement('dialog');d.id='evo115';d.className='msg62';document.body.append(d)}
+  if(!canEvolve(id)){let need=h.lv<100?`nível 100 (agora ${h.lv})`:'';let miss=el.length?'':`1 carta ${RN(h.rank)} de ${D[id].n}`;d.innerHTML=`<h3>Evolução de ${esc(D[id].n)}</h3><p>Para evoluir é preciso: <b>${[need,miss].filter(Boolean).join(' e ')||'—'}</b>.</p><p class="muted">Regra: carta no nível 100 + outra carta do mesmo campeão e da mesma raridade (qualquer nível), que é consumida.</p><div class="msg62Actions"><button type="button" class="primary" onclick="this.closest('dialog').close()">Entendi</button></div>`;d.showModal();return}
+  let pv=preview(id),pick=el[0].uid;const row=(k,lab)=>`<tr><td>${lab}</td><td>${fmt(pv.now[k])}</td><td>→</td><td class="up115">${pv.nx?fmt(pv.nx[k]):'—'}</td></tr>`;
+  const paint=()=>{d.innerHTML=`<h3>✦ Evoluir ${esc(D[id].n)}?</h3><p><b style="color:${rc[h.rank]}">${esc(RN(h.rank))}</b> → <b style="color:${rc[h.rank+1]}">${esc(RN(h.rank+1))}</b> · volta ao nível 1 na nova raridade (mantém pontos e equipamentos).</p>
+    <h4>Carta que será consumida</h4><div class="pickc115">${el.map(c=>`<label class="${c.uid===pick?'sel':''}"><input type="radio" name="ev115" value="${c.uid}" ${c.uid===pick?'checked':''}> ${esc(RN(c.rank))} · Nv. ${c.lv}${c===el[0]?' <em>(recomendada: menor nível)</em>':''}</label>`).join('')}</div>
+    <table class="cmp115"><tr><th></th><th>Agora</th><th></th><th>Nv. 1 ${esc(RN(h.rank+1))}</th></tr>${row('hp','Vida')}${row('atk','Ataque')}${row('def','Defesa')}</table>
+    <div class="msg62Actions"><button type="button" data-e115="0">Cancelar</button><button type="button" class="primary" data-e115="1">Evoluir</button></div>`};
+  paint();d.onchange=ev=>{let r=ev.target.closest('input[name="ev115"]');if(r){pick=r.value;paint()}};
+  d.onclick=ev=>{let k=ev.target.closest('[data-e115]');if(!k)return;d.close();if(k.dataset.e115!=='1')return;let i=C().findIndex(c=>c.uid===pick&&c.base===id&&c.rank===h.rank);if(i<0||!canEvolve(id))return;
+    C().splice(i,1);h.dup=1;save();fusion(id,h.rank,h.rank+1,()=>{evoBypass=true;try{let nb=document.querySelector(`#detail [data-evolve="${id}"]`)||b;nb.click()}finally{evoBypass=false}h.dup=0;save();try{renderCollection();update()}catch(err){}})};
+  d.showModal()},true);
+function fusion(id,from,to,done){let d=D[id],o=document.createElement('dialog');o.className='fus112';o.style.setProperty('--c1',rc[from]);o.style.setProperty('--c2',rc[to]);
+  o.innerHTML=`<div class="fc112 a">${portrait(d,from)}</div><div class="fc112 b">${portrait(d,from)}</div><div class="flash112"></div><div class="fc112 n">${portrait(d,to)}<b>${esc(d.n)}</b><small>${esc(RN(to))}</small></div>`;
+  document.body.append(o);let fin=false;const end=()=>{if(fin)return;fin=true;o.classList.add('out112');setTimeout(()=>{try{o.close()}catch(e){}o.remove();done()},350)};o.addEventListener('cancel',e=>{e.preventDefault();end()});o.onclick=end;o.showModal();setTimeout(end,2300)}
+// ---- usar outra carta como a ativa ----
+function useCard(u){let c=C().find(x=>x.uid===u);if(!c)return;let id=c.base,h=S.heroes[id];if(!h){S.heroes[id]={lv:c.lv,xp:c.xp,rank:c.rank,dup:0,points:c.points,bonus:{...c.bonus}};C().splice(C().indexOf(c),1);save();return}
+  if(typeof battleHeroLocked==='function'&&battleHeroLocked(id)){toast('Este campeão está em batalha agora. Termine a luta primeiro.',3000);return}
+  let n=0;for(const i of S.items)if(i.owner===id){i.owner=null;n++}
+  for(const k of ['rank','lv','xp','points']){let t=h[k];h[k]=c[k];c[k]=t}let tb=h.bonus;h.bonus={...c.bonus};c.bonus={...tb};let tl=!!h.lock102;if(c.lock)h.lock102=true;else delete h.lock102;c.lock=tl;delete h.pendingRank;c.t=Date.now();
+  save();try{refreshIdle();renderCollection();update()}catch(e){}toast(`🃏 <b>${esc(D[id].n)}</b> agora usa a carta ${esc(RN(h.rank))} Nv. ${h.lv}.${n?` Os ${n} equipamentos da carta anterior voltaram ao inventário.`:''}`,4500)}
+function sellCard(u){let c=C().find(x=>x.uid===u);if(!c)return;if(c.lock){toast('Carta trancada 🔒: destranque para vender.',2500);return}let price=[0,50,100,180,300,500,750,1000][c.rank]||50;C().splice(C().indexOf(c),1);S.gold=num(S.gold)+price;save();try{renderCollection();update()}catch(e){}toast(`Carta vendida por ${fmt(price)} ouro.`,2500)}
+// campeão principal vendido com cartas de reserva: a melhor carta assume
+setInterval(()=>{try{let ch=false;for(const c of [...C()]){if(!S.heroes[c.base]&&ACTIVE_IDS.has(c.base)){let best=cardsOf(c.base).sort((a,b)=>b.rank-a.rank||b.lv-a.lv)[0];S.heroes[c.base]={lv:best.lv,xp:best.xp,rank:best.rank,dup:0,points:best.points,bonus:{...best.bonus}};C().splice(C().indexOf(best),1);ch=true}}if(ch){save();try{renderCollection()}catch(e){}}}catch(e){}},1500);
+
+// ================= 3) COLEÇÃO: filtros, cartas de reserva e marcas de equipe =================
+let F={q:'',rar:0,el:'',role:'',team:'',evo:false,sort:'rank',page:60};
+const ROLE={tank:'Tanque',heal:'Cura',aoe:'Área',multi:'Vários alvos',freeze:'Controle',phoenix:'Ressurreição'};
+function teamsOf(id){let t=[];if((S.team||[]).includes(id))t.push('TORRE');if((S.pvpTeam||[]).includes(id))t.push('ARENA');if((S.globalTeam||[]).includes(id))t.push('CHEFE GLOBAL');if(typeof battleHeroLocked==='function'&&battleHeroLocked(id))t.push('EM BATALHA');return t}
+const pow=(d,r,lv)=>{let b=baseHero(d,r,lv);return Math.round(b.atk+b.def+b.hp/5)};
+function passes(d,r,lv,id,isCard){if(F.q&&!d.n.toLowerCase().includes(F.q.toLowerCase()))return false;if(F.rar&&r!==F.rar)return false;if(F.el&&d.element!==F.el)return false;if(F.role&&d.role!==F.role)return false;
+  if(F.team){let t=isCard?[]:teamsOf(id);if(F.team==='any'&&!t.length)return false;if(F.team==='none'&&t.length)return false}if(F.evo&&(isCard||!canEvolve(id)))return false;return true}
+function bar(){let col=document.getElementById('collection');if(!col)return null;let b=document.getElementById('filt115');if(!b){b=document.createElement('div');b.id='filt115';b.className='filt115';(document.getElementById('form112')||col).before(b);
+  b.innerHTML=`<input id="fq115" placeholder="Buscar nome" value="${esc(F.q)}"><select id="fr115"><option value="0">Raridade</option>${[1,2,3,4,5,6,7].map(r=>`<option value="${r}">${RN(r)}</option>`).join('')}</select>
+   <select id="fe115"><option value="">Elemento</option>${(window.ELEMENTS113||[]).map(e=>`<option>${e}</option>`).join('')}</select><select id="fo115"><option value="">Função</option>${Object.entries(ROLE).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select>
+   <select id="ft115"><option value="">Equipes</option><option value="any">Em alguma equipe</option><option value="none">Fora das equipes</option></select><select id="fs115"><option value="rank">Ordenar: raridade</option><option value="lv">Nível</option><option value="pow">Poder</option><option value="name">Nome</option></select>
+   <label><input type="checkbox" id="fv115"> Pode evoluir</label><button type="button" id="fsell115">Vender cópias de reserva…</button>`;
+  b.addEventListener('input',e=>{F.q=document.getElementById('fq115').value;F.rar=+document.getElementById('fr115').value;F.el=document.getElementById('fe115').value;F.role=document.getElementById('fo115').value;F.team=document.getElementById('ft115').value;F.sort=document.getElementById('fs115').value;F.evo=document.getElementById('fv115').checked;F.page=60;apply(true)});
+  b.querySelector('#fsell115').onclick=bulkSell}return b}
+function apply(force){let col=document.getElementById('collection');if(!col)return;bar();
+  // cartas ativas (renderizadas pelo jogo)
+  let shown=0;col.querySelectorAll(':scope > .collect').forEach(card=>{let id=+card.querySelector('[data-detail]')?.dataset.detail,h=S.heroes[id],d=D[id];if(!h||!d)return;let ok=passes(d,h.rank,h.lv,id,false);card.style.display=ok?'':'none';if(ok)shown++;
+    let t=teamsOf(id),tg=card.querySelector('.teams115'),html=t.map(x=>`<i>${x}</i>`).join('');if(t.length){if(!tg){tg=document.createElement('div');tg.className='teams115';card.prepend(tg)}if(tg.innerHTML!==html)tg.innerHTML=html}else if(tg)tg.remove();
+    let nc=cardsOf(id).length,cc=card.querySelector('.cc115'),t2=nc?`🃏 +${nc} carta(s)`:'';if(nc){if(!cc){cc=document.createElement('div');cc.className='cc115';card.append(cc)}if(cc.textContent!==t2)cc.textContent=t2}else if(cc)cc.remove()});
+  // cartas de reserva
+  let list=C().filter(c=>D[c.base]&&ACTIVE_IDS.has(c.base)&&passes(D[c.base],c.rank,c.lv,c.base,true));
+  const key={rank:(a,b)=>b.rank-a.rank||b.lv-a.lv,lv:(a,b)=>b.lv-a.lv,pow:(a,b)=>pow(D[b.base],b.rank,b.lv)-pow(D[a.base],a.rank,a.lv),name:(a,b)=>D[a.base].n.localeCompare(D[b.base].n)}[F.sort]||((a,b)=>0);list.sort(key);
+  let sec=document.getElementById('res115');if(!sec){sec=document.createElement('div');sec.id='res115';sec.className='res115';col.after(sec)}
+  let html=`<h3>🃏 Cartas de reserva (${list.length}${list.length!==C().length?' de '+C().length:''})</h3><p class="muted small115">Cópias são campeões completos. Toque em <b>Usar esta carta</b> para levá-la às formações (a carta atual vira reserva).</p><div class="grid115">${list.slice(0,F.page).map(c=>{let d=D[c.base];return `<div class="card115" style="--rar:${rc[c.rank]}"><span class="copy115">CÓPIA</span>${c.lock?'<span class="lk115">🔒</span>':''}<div class="pp115">${portrait(d,c.rank)}</div><b>${esc(d.n)}</b><small>${'★'.repeat(c.rank)} ${esc(RN(c.rank))} · Nv. ${c.lv}</small><small>${esc(d.element||'')} · ${ROLE[d.role]||''} · Poder ${fmt(pow(d,c.rank,c.lv))}</small><div class="btns115"><button type="button" data-use115="${c.uid}">Usar esta carta</button><button type="button" data-lock115="${c.uid}">${c.lock?'🔒':'🔓'}</button><button type="button" class="danger" data-sellc115="${c.uid}">Vender</button></div></div>`}).join('')}</div>${list.length>F.page?`<button type="button" id="more115">Mostrar mais (${list.length-F.page})</button>`:''}`;
+  if(force||sec.dataset.h!==html){sec.dataset.h=html;sec.innerHTML=html}}
+safe('rc',()=>{const rc0=renderCollection;renderCollection=function(){let r=rc0.apply(this,arguments);try{apply(true)}catch(e){}return r}});
+setInterval(()=>{try{if(tab==='cards')apply(false)}catch(e){}},1200);
+document.addEventListener('click',e=>{let b=e.target.closest('[data-use115],[data-sellc115],[data-lock115],#more115');if(!b)return;e.preventDefault();
+  if(b.id==='more115'){F.page+=60;apply(true);return}if(b.dataset.use115){useCard(b.dataset.use115);return}
+  if(b.dataset.lock115){let c=C().find(x=>x.uid===b.dataset.lock115);if(c){c.lock=!c.lock;save();apply(true)}return}
+  if(b.dataset.sellc115){let c=C().find(x=>x.uid===b.dataset.sellc115);if(!c)return;let d=document.getElementById('sc115');if(!d){d=document.createElement('dialog');d.id='sc115';d.className='msg62';document.body.append(d)}d.innerHTML=`<h3>Vender esta carta?</h3><p>${esc(D[c.base].n)} · ${esc(RN(c.rank))} · Nv. ${c.lv}. O campeão principal continua na coleção.</p><div class="msg62Actions"><button type="button" data-s115="0">Cancelar</button><button type="button" class="danger" data-s115="1">Vender</button></div>`;d.onclick=ev=>{let k=ev.target.closest('[data-s115]');if(!k)return;d.close();if(k.dataset.s115==='1')sellCard(c.uid)};d.showModal()}});
+function bulkSell(){let d=document.getElementById('bs115');if(!d){d=document.createElement('dialog');d.id='bs115';d.className='msg62';document.body.append(d)}let counts={};for(const c of C())if(!c.lock)counts[c.rank]=(counts[c.rank]||0)+1;
+  d.innerHTML=`<h3>Vender cópias de reserva</h3><p class="muted">Só cartas de reserva destrancadas. As cartas ativas (das formações) nunca entram.</p>${[1,2,3,4,5,6,7].filter(r=>counts[r]).map(r=>`<button type="button" class="bsr115" data-bsr115="${r}" style="--rar:${rc[r]}">${esc(RN(r))}: ${counts[r]} carta(s) · ${fmt(counts[r]*([0,50,100,180,300,500,750,1000][r]))} ouro</button>`).join('')||'<p>Nenhuma carta de reserva destrancada.</p>'}<div class="msg62Actions"><button type="button" onclick="this.closest('dialog').close()">Fechar</button></div>`;
+  d.onclick=ev=>{let k=ev.target.closest('[data-bsr115]');if(!k)return;let r=+k.dataset.bsr115;let sel=C().filter(c=>c.rank===r&&!c.lock);let g=sel.length*([0,50,100,180,300,500,750,1000][r]);S.cards115=C().filter(c=>!(c.rank===r&&!c.lock));S.gold=num(S.gold)+g;save();d.close();try{renderCollection();update()}catch(e){}toast(`Vendeu ${sel.length} carta(s) ${esc(RN(r))} por ${fmt(g)} ouro.`,3500)};d.showModal()}
+// detalhes: linha de cópias mostra as cartas de reserva
+setInterval(()=>{try{let d=document.getElementById('detail');if(!d||!d.open)return;let ev=d.querySelector('[data-evolve]');let id=ev?+ev.dataset.evolve:NaN;let h=S.heroes[id];if(!h)return;let box=d.querySelector('.copies112');if(!box)return;let cs=cardsOf(id),byR={};for(const c of cs)byR[c.rank]=(byR[c.rank]||0)+1;let el=eligible(id).length;
+  let html=`<b>Cartas:</b> 1× ${esc(RN(h.rank))} (ativa) · reserva: ${Object.keys(byR).length?Object.keys(byR).map(Number).sort((a,b)=>b-a).map(r=>`${byR[r]}× ${esc(RN(r))}`).join(' · '):'nenhuma'}${h.rank<D[id].maxRank?` · <span class="${canEvolve(id)?'good112':'muted'}">${canEvolve(id)?'✔ Pronto para evoluir':`Evoluir: nível 100 + 1 carta ${esc(RN(h.rank))} (${el} disponível)`}</span>`:''}`;if(box.innerHTML!==html)box.innerHTML=html}catch(e){}},500);
+
+// ================= 4) RESSURREIÇÃO TAMBÉM NA ARENA E NO CHEFE GLOBAL =================
+let phB={},deadB={};
+safe('pvpPhx',()=>{for(const fn of ['startPvp','startGlobal35']){const o=window[fn];if(typeof o!=='function')continue;window[fn]=function(){phB={};deadB={};let r=o.apply(this,arguments);try{for(const a of allies)a.revived=true}catch(e){}return r}}
+  const isPhx=id=>D[id]&&D[id].role==='phoenix';
+  const at=attack;attack=function(b,opp,own,isE){let r=at.apply(this,arguments);try{if(isE&&(pvpActive||globalActive35)&&inRun){for(const a of allies){if(a.hp>0){delete deadB[a.id];continue}if(deadB[a.id])continue;deadB[a.id]=true;let src=(isPhx(a.id)&&!phB[a.id])?a:allies.find(x=>x.hp>0&&isPhx(x.id)&&!phB[x.id]);if(src){phB[src.id]=true;a.hp=Math.max(1,Math.floor(a.max*.45));a.cos=0;delete deadB[a.id];try{log(src===a?`🔥 ${D[a.id].n} renasceu das cinzas!`:`🔥 ${D[src.id].n} ressuscitou ${D[a.id].n}!`,'good')}catch(e){}}}}}catch(e){}return r}});
+
+// Torre recalibrada para o novo poder (simulador: 5 Lendários ~545 · 4 Lendários ~510 · 3 Lendários ~390 · 1 Comum nv 20 ~19)
+safe('tower115',()=>{if(window.CFG111)CFG111.towerHarden=.055});
+// Guia: regras novas
+setInterval(()=>{try{let g=document.getElementById('news112');if(!g||g.querySelector('.n115'))return;g.querySelector('div')?.insertAdjacentHTML('afterbegin',`<p class="n115"><b>🆕 1.15 · Cartas individuais:</b> cada campeão repetido é uma <b>carta completa</b> (nível, XP, raridade e pontos próprios), listada em "Cartas de reserva". Toque em <b>Usar esta carta</b> para levá-la às formações. <b>Evolução:</b> carta no nível 100 + outra carta do mesmo campeão e da <b>mesma raridade</b> (qualquer nível), que é consumida.</p><p class="n115"><b>7 elementos:</b> Água › Fogo › Planta › Pedra › Raio › Água · Luz ⇄ Escuridão (vantagem de até +25%). <b>46 campeões:</b> 14 Astralitas, 12 do Zodíaco, 14 das Nações (Caurion e Aurel Sur voltaram) e 6 Celestiais. <b>Poder por raridade:</b> igual para nascidos e evoluídos; cada raridade acima é bem mais forte.</p>`)}catch(e){}},1500);
+
+// ================= 5) BOTÕES QUE CHAMAVAM A VERSÃO ANTIGA =================
+// "Iniciar ataque" do Chefe Global estava ligado à função da v0.38: por isso o raide continuava com 60 s,
+// nível antigo e sem fortalecimento no jogo real. Agora o botão chama sempre a versão atual.
+safe('rebind',()=>{let g=document.getElementById('globalStart35');if(g)g.onclick=()=>startGlobal35();let sv=document.getElementById('save');if(sv)sv.onclick=()=>{try{window.saveNow114?saveNow114():save()}catch(e){}}});
+
+document.title='COSMO TOWER 500F — A Luta dos Deuses | 1.15';
+})();
+
+</script>
+<style id="v115-style">
+.filt115{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0;padding:8px;border:1px solid #8fb7ff44;border-radius:12px;background:#0c1630}
+.filt115 input,.filt115 select{flex:1 1 120px;min-width:0}
+.filt115 label{display:flex;gap:4px;align-items:center;font-size:12px}
+.teams115{position:absolute;top:28px;left:4px;z-index:6;display:flex;flex-direction:column;gap:2px}
+.teams115 i{font-style:normal;font-size:9px;font-weight:900;letter-spacing:.04em;padding:1px 5px;border-radius:6px;background:#1d3d2a;color:#9dffc6;border:1px solid #3ddc8466}
+.cc115{margin-top:4px;font-size:11px;color:#bfe7ff;text-align:center}
+.res115{margin:14px 0}.res115 h3{margin:0 0 4px}.small115{font-size:12px}
+.grid115{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.card115{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px;border:2px solid var(--rar);border-radius:12px;background:#0b1020}
+.card115 .pp115 img,.card115 .pp115 .rankportrait{width:100%;max-height:150px;object-fit:cover;border-radius:8px}
+.card115 b{font-size:13px}.card115 small{font-size:11px;opacity:.85;text-align:center}
+.copy115{position:absolute;top:4px;left:4px;z-index:3;padding:1px 6px;border-radius:6px;background:#2a1f45;color:#e6c8ff;font-size:9px;font-weight:900;letter-spacing:.06em}
+.lk115{position:absolute;top:4px;right:6px;z-index:3}
+.btns115{display:flex;gap:4px;flex-wrap:wrap;justify-content:center;margin-top:4px}.btns115 button{min-height:0;padding:4px 7px;font-size:11px}
+.pickc115{display:flex;flex-direction:column;gap:4px;text-align:left;margin:6px 0}.pickc115 label{padding:5px 8px;border:1px solid #fff2;border-radius:8px}.pickc115 label.sel{border-color:#91efaf;background:#0f2a1c}
+.cmp115{margin:8px auto;border-collapse:collapse}.cmp115 td,.cmp115 th{padding:3px 8px}.up115{color:#91efaf;font-weight:800}
+.bsr115{display:block;width:100%;margin:5px 0;border-left:4px solid var(--rar)}
 </style>
 </body></html>
